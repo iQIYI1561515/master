@@ -1,0 +1,369 @@
+#main>h2{
+    font-size: 32px;
+    font-family: Century Gothic Std,Arial,sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.z_banner1 {
+    width: 95%;
+    max-height:616px;
+    margin: 40px auto;
+}
+.z_banner1 a{
+    cursor: pointer;
+    display: block;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.z_banner1 a img{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+.z_banner1 a span{
+    position: absolute;
+    width: 130px;
+    height: 60px;
+    border-radius: 30px;
+    background: #000;
+    top: 82%;
+    font-size: 14px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    left: 46%;
+}
+.z_banner1 a span:hover{
+    font-weight: bold;
+}
+/* 粉底液 */
+.z_founda{
+    width: 95%;
+    max-height:680px;
+    margin: 0 auto;
+}
+ .z_founda_l{
+    cursor: pointer;
+    width: 68%;
+    float: left;
+    position: relative;
+}
+.z_founda_l .zz_img{
+    width: 100%;
+}
+.z_founda_l .zz_img img{
+    display: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.z_founda_l video{
+    /* display: none; */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.z_founda_l a{
+    color: #000;
+    display: block;
+}
+.z_h2{
+    font-size: 32px;
+    font-family: Century Gothic Std,Arial,sans-serif;
+    font-weight: 400;
+}
+.z_p1{
+    font-size:14px ;
+    line-height:14px ;
+    color: #000;
+}
+.z_p2{
+    margin-top: 15px;
+    width: 130px;
+    height: 60px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    font-size: 14px;
+    line-height: 60px;
+    text-align: center;
+    color: #000;
+}
+.z_founda_r{
+    cursor: pointer;
+    float: right;
+    width: 29%;
+}
+.z_founda_r .zz_img{
+    width: 100%;
+}
+.z_founda_r .zz_img img{
+    width: 100%;
+}
+.z_founda_r p{
+    color: #000;
+    font-family: Century Gothic Std Bold;
+    font-size: 16px;
+    line-height: 25px;「」
+}
+.z_founda_r p:nth-of-type(1){
+    margin-top: 10px;
+    color: #757575;
+}
+.z_founda_r p:nth-of-type(4)>span{
+    color: #ccc;
+}
+.z_founda_r p:nth-of-type(4)>span:nth-last-child(4){
+    color: #000;
+}
+.z_founda_r h3{
+    font-family: Century Gothic Std Bold;
+    margin-top: 10px;
+}
+/* 口红介绍 */
+.z_frag{
+    width: 95%;
+    margin: 40px auto;
+}
+/* 口红板块宽度设置 */
+.z_founda_l .zf_img{
+    width: 100%;
+}
+/* 口红板块大图片 */
+.z_founda_l .zf_img img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* 变色润唇膏系列展示 */
+.z_banner2 {
+    width: 95%;
+    max-height:616px;
+    margin: 40px auto;
+}
+.z_banner2 a{
+    cursor: pointer;
+    display: block;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.z_banner2 a img{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+.z_banner2 a span{
+    position: absolute;
+    width: 130px;
+    height: 60px;
+    border-radius: 30px;
+    background: #000;
+    top: 82%;
+    font-size: 14px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    left: 46%;
+}
+.z_banner2 a span:hover{
+    font-weight: bold;
+}
+/* 丰唇蜜系列 */
+.z_lips{
+    width: 95%;
+    max-height:680px;
+    margin: 0 auto;
+}
+ .z_lips_l{
+    cursor: pointer;
+    width: 68%;
+    float: left;
+    position: relative;
+}
+.z_lips_l .zf_img{
+    width: 100%;
+}
+.z_lips_l .zf_img img{
+    display: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.z_lips_l video{
+    /* display: none; */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.z_lips_l a{
+    color: #000;
+    display: block;
+}
+.z_h2{
+    font-size: 32px;
+    font-family: Century Gothic Std,Arial,sans-serif;
+    font-weight: 400;
+}
+.z_p1{
+    font-size:14px ;
+    line-height:14px ;
+    color: #000;
+}
+.z_p2{
+    margin-top: 15px;
+    width: 130px;
+    height: 60px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    font-size: 14px;
+    line-height: 60px;
+    text-align: center;
+    color: #000;
+}
+.z_p2:hover{
+    font-weight: bold;
+}
+.z_lips_r{
+    cursor: pointer;
+    float: right;
+    width: 29%;
+}
+.z_lips_r .zz_img{
+    width: 100%;
+}
+.z_lips_r .zz_img img{
+    width: 100%;
+}
+.z_lips_r p{
+    color: #000;
+    font-family: Century Gothic Std Bold;
+    font-size: 16px;
+    line-height: 25px;「」
+}
+.z_lips_r p:nth-of-type(1){
+    margin-top: 10px;
+    color: #757575;
+}
+.z_lips_r p:nth-of-type(4)>span{
+    color: #ccc;
+}
+.z_lips_r p:nth-of-type(4)>span:nth-last-child(4){
+    color: #000;
+}
+.z_lips_r h3{
+    font-family: Century Gothic Std Bold;
+    margin-top: 10px;
+}
+/* GET THE LOOK OF THE SHOW */
+.z_show {
+    width: 95%;
+    margin: 0 auto;
+    padding-top:60px;
+    border-bottom:1px solid #ccc;
+    padding-bottom:40px;
+
+}
+.z_show a{
+    cursor: pointer;
+    display: block;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    /* margin: 0 auto; */
+    position: relative;
+}
+.z_show a img{
+    width: 100%;
+    padding: 0;
+}
+.z_show a span{
+    position: absolute;
+    width: 130px;
+    height: 60px;
+    border-radius: 30px;
+    background: #000;
+    top: 82%;
+    font-size: 14px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    left: 46%;
+}
+.z_show a span:hover{
+    font-weight: bold;
+}
+.z_Nproduct{
+    width: 95%;
+    margin: 0 auto;
+}
+.z_Nproduct h2{
+    font-size: 32px;
+    line-height: 74px;
+    font-family: Century Gothic Std,Arial,sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.z_Nproduct ul{
+    width: 100%;
+    margin: 0 auto;
+}
+.z_Nproduct ul li{
+    width: 18%;
+    margin: 0 1%;
+    float: left;
+}
+.z_Nproduct ul li a{
+display: block;
+    width: 100%;
+}
+.z_Nproduct ul li a img{
+    width: 100%;
+}
+/* 图片文字说明 */
+.z_Nproduct ul li a p{
+    color: #000;
+    font-family: Century Gothic Std Bold;
+    font-size: 16px;
+    line-height: 25px;「」
+}
+.z_Nproduct ul li a p:nth-of-type(1){
+    margin-top: 10px;
+    color: #757575;
+}
+.z_Nproduct ul li a p:nth-of-type(4)>span{
+    color: #ccc;
+}
+.z_Nproduct ul li a p:nth-of-type(4)>span:nth-last-child(4){
+    color: #000;
+}
+.z_Nproduct ul li a h3{
+    font-family: Century Gothic Std Bold;
+    margin-top: 10px;
+}
+.z_Nproduct .z_more{
+    width: 100%;
+}
+.z_Nproduct .z_more a{
+    display: block;
+    color: #000;
+    cursor: pointer;
+    text-align: center;
+    width: 162px;
+    height: 48px;
+    border: 1px solid #000;
+    margin: 40px auto ;
+    font-size: 18px;
+    font-family: Century Gothic Std,Arial,sans-serif;
+    border-radius: 24px;
+    line-height: 48px;
+}
+.z_Nproduct .z_more a:hover{
+    font-weight: bold;
+}
