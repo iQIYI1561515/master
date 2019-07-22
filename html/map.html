@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+<title>Hello, World</title>  
+<style type="text/css">  
+html{height:100%}  
+body{height:100%;margin:0px;padding:0px}  
+#container{height:70%;width:50%;margin:100px auto;}  
+</style>  
+<script type="text/javascript" src="https://api.map.baidu.com/getscript?v=2.0&amp;ak=4W1cQi7Btu5tG0UCELpqfVjg4UtZ7LZL"></script>
+</head>  
+<body>  
+<div id="container"></div> 
+<script type="text/javascript"> 
+var map = new BMap.Map("container");          // 创建地图实例,参数可以是id或元素对象 
+var point = new BMap.Point(113.844461,22.632091);  // 创建点坐标  
+map.centerAndZoom(point, 18);                 // 初始化地图，设置中心点坐标和地图级别  
+map.enableScrollWheelZoom();				  // 使用鼠标滚轮控制缩放  
+map.addControl(new BMap.NavigationControl());    
+var marker = new BMap.Marker(point);        // 创建标注    
+map.addOverlay(marker);                     // 将标注添加到地图中
+</script>  
+</body>  
+
+<!--np21m1qLWsuF4gGwzSwYMpC4-->

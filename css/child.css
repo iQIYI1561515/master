@@ -1,0 +1,350 @@
+			.main{
+				overflow: hidden;
+			}
+			.main-content{
+			    width: 90rem;
+    			margin: 1.25rem auto;
+			}
+			.main .main-content .title1{
+				margin-top: 1.25rem;
+    			margin-bottom: 1.25rem;
+		        font-size: 2rem;
+		   		line-height: 2.375rem;
+		   		text-align: center;
+		   		font-weight: normal;
+			}
+			.land-news{
+				width: 100%;
+				padding: 0;
+				display: flex;
+			}
+			.land-news-video{
+			    width: 70%;
+    			margin-right: 2.5rem;
+			    display: flex;
+			    flex-direction: column;
+			    font-size: .9375rem;
+			    height: 100%;
+			}
+			.player{
+			    position: relative;
+			    width: 100%;
+			    padding-bottom: 56.25%;
+			    overflow: hidden;
+			    display: block;
+			    z-index: 0;
+			    margin-bottom: .75rem;
+			}
+			.btn{
+			    margin: 0;
+			    padding: 0;
+			    position: absolute;
+			    top: 0;
+			    left: 0;
+			    width: 100%;
+			    height: 100%;
+			    z-index: 2;
+			    display: flex;
+			    align-items: center;
+			    justify-content: center;
+			    background-color: transparent;
+			    border: 0;
+			    color: #fff;
+			    cursor: pointer;
+			}
+			.play{
+				font-size: 4rem;
+				position: absolute;
+			    display: flex;
+			    z-index: 2;
+			    top: 47%;
+			    left: 47%;
+				
+			}
+			.play-img{
+				display: table;
+			    position: relative;
+			    width: 100%;
+			    padding-bottom: 56.1702%;
+			    overflow: hidden;
+			}
+			.play-img img{
+				width: 100%;
+				height: 100%;
+			}
+			.player video{
+			    position: absolute;
+			    display: block;
+			    width: 100%;
+			}
+			.land-news-link{
+				display: inline-block;
+				text-decoration: none;
+				color: #000;
+			}
+			.title2{
+				margin-bottom: .75rem;
+			    font-size: 2rem;
+    			line-height: 2.375rem;
+			}
+			.buy{
+			    color: #000;
+			    border: .0625rem solid #000;
+			    text-align: center;
+			    box-sizing: border-box;
+			    cursor: pointer;
+			    display: inline-flex;
+			    height: 3rem;
+			    border-radius: 1.5rem;
+			    font-size: .9375rem;
+			    line-height: 1.0625rem;
+			    padding: 0 2rem;
+			    justify-content: center;
+    			align-items: center;
+    			margin-top: .7rem;
+			}
+			.land-news-products{
+				width: 30%;
+			}
+			.slider-con{
+				overflow: visible;
+			}
+			.slider{
+			    position: relative;
+   				display: block;
+			}
+			.toLeft{
+			    position: absolute;
+			    top: 18%;
+			    left: 0;
+			    width: 1.25rem;
+			    padding-right: 0!important;
+			    z-index: 3;
+			    padding-bottom: 30%;
+			    padding-top: 30%;
+		        padding-left: .3125rem;
+	            display: inline-flex;
+			    font-size: 1rem;
+			    cursor: pointer;
+		        border: none;
+    			background-color: transparent;
+    			outline: none;
+			}
+			.toLeft span{
+			    transform: rotate(-90deg);
+			}
+			.toRight{
+			    position: absolute;
+			    top: 18%;
+			    right: .2rem;
+			    width: 1.25rem;
+			    padding-right: 0!important;
+			    z-index: 3;
+			    padding-bottom: 30%;
+			    padding-top: 30%;
+		        padding-left: .3125rem;
+	            display: inline-flex;
+			    font-size: 1rem;
+			    cursor: pointer;
+		        border: none;
+    			background-color: transparent;
+    			outline: none;
+			}
+			.toRight span{
+				transform: rotate(90deg);
+			}
+			.imgbox{
+				position: relative;
+				overflow: hidden;
+				display: block;
+			}
+			.imglist{
+			    width: 2160px;
+			    opacity: 1;
+			    /*transform: translate3d(-432px, 0px, 0px);*/
+		        position: relative;
+			    top: 0;
+			    left: 0;
+			    display: block;
+			    margin-left: auto;
+			    margin-right: auto;
+			    
+			}
+			.imglist .first{
+				width: 432px;
+			    float: left;
+   				height: 100%;
+   				min-height: 1px;
+   				display: block;
+			}
+			.first-con{
+				width: 100%;
+				height: 100%;
+			}
+			.product{
+			    display: flex;
+			    font-size: .9375rem;
+			    line-height: 1.5rem;
+			    box-sizing: border-box;
+			    position: relative;
+				flex-direction: column;
+			}
+			.productimg{
+				display: table;
+			    position: relative;
+			    width: 100%;
+			    padding-bottom: 108.261%;
+			    overflow: hidden;
+			}
+			.productimg img{
+			    position: absolute;
+			    width: 100%;
+			    top: 0px;
+			    left: 0px;
+			}
+			.productText{
+			    margin-top: .875rem;
+			    margin-left: .3125rem;
+			    width: 70%;
+		        display: flex;
+			    flex-direction: column;
+			    box-sizing: border-box;
+			    color: #000;
+			}
+			.productTitle{
+				line-height: 1.5rem;
+    			display: block;
+        		font-size: .9375rem;
+        		margin-bottom: .75rem;
+			}
+			.joinlove{
+			    right: .9375rem;
+			    position: absolute;
+				top: .9375rem;
+				background: transparent;
+				border: 0;
+				z-index: 1;
+				
+			}
+			.joinlove .love{
+				color: #000;
+			}
+			.slider-bottom{
+				position: relative;
+			    margin-top: 1.5625rem;
+			    display: flex;
+			    justify-content: center;
+			    width: 100%;
+			    text-align: center;
+			}
+			.tablist{
+			    position: relative;
+			    display: flex;
+			    align-items: center;
+			    list-style: none;
+			}
+			.tablist button{
+				display: block;
+			    cursor: pointer;
+			    border: 0;
+			    background: transparent;
+			    border-radius: 50%;
+			    width: .4rem;
+			    height: .4rem;
+			    background-color: #ccc;
+			    margin-right: .5rem;
+			}
+			.tablist .active{
+				background-color: #000;
+				width: .5rem;
+			    height: .5rem;
+			}
+			.girl{
+				width: 100%;
+			    margin-top: 2.5rem;
+   				margin-bottom: 2.5rem;
+			}
+			.girl h2{
+			    font-size: 3.25rem;
+    			line-height: 3.25rem;
+    			margin-top: 1.25rem;
+    			margin-bottom: 2rem;
+		   		text-align: center;
+		   		font-weight: normal;
+			}
+			.girl h3{
+				margin-top: .625rem;
+				font-size: 2rem;
+    			line-height: 2.375rem;
+    			font-weight: normal;
+			}
+			.girl a{
+				color: #000;
+			}
+			.clothes{
+				margin-top: 2.5rem;
+    			margin-bottom: 2.5rem;
+			}
+			.clothes h2{
+				font-size: 1.625rem;
+    			line-height: 2rem;
+				margin-bottom: 1.25rem;
+			    padding-top: 1.25rem;
+			    border-top: .0625rem solid #e5e5e5;
+			    text-align: center;
+			    font-weight: normal;
+			}
+			.clothesList{
+			    display: flex;
+    			margin-bottom: 1.25rem;
+			}
+			.clothesList li a{
+				color: #000;
+			}
+			.clothesList li{
+			    flex: 1;
+				margin: 0 .625rem;
+			/*    display: flex;*/
+			    font-size: .9375rem;
+			    line-height: 1.5rem;
+			    box-sizing: border-box;
+			    position: relative;
+			}
+			.clothesList li a img{
+			    width: 21.25rem;
+			    height: 23rem;
+			}
+			.clothesList li a .clothesList-tit{
+    			margin-top: .875rem;
+				font-size: .9375rem;
+			    line-height: 1.5rem;
+    			display: block;
+			}
+			.clothesList li a .clothesList-price{
+			    margin-top: .75rem;
+			    display: block;
+			}
+			.boy{
+			    border-top: .125rem solid #f6f6f6;
+    			padding-top: 2.5rem;
+			}
+			.boy a{
+				color: #000;
+			}
+			.boy h2{
+				text-align: center;
+				font-weight: normal;
+			    font-size: 3.25rem;
+    			line-height: 3.25rem;
+    			margin-bottom: 2rem;
+			}
+			.boy h3{
+				margin-top: .625rem;
+				font-size: 2rem;
+    			line-height: 2.375rem;
+    			font-weight: normal;
+			}
+			.clothesList li a .big{
+			    width: 28.75rem;
+			    height: 35.725rem;
+			}

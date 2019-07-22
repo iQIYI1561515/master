@@ -3,11 +3,12 @@
     font-family: Century Gothic Std,Arial,sans-serif;
     font-weight: 400;
     text-align: center;
+    margin-top:30px ;
 }
 .z_banner1 {
     width: 95%;
     max-height:616px;
-    margin: 40px auto;
+    margin: 40px auto;    
 }
 .z_banner1 a{
     cursor: pointer;
@@ -56,13 +57,13 @@
     width: 100%;
 }
 .z_founda_l .zz_img img{
-    display: none;
+    /*display: none;*/
     width: 100%;
     margin: 0;
     padding: 0;
 }
 .z_founda_l video{
-    /* display: none; */
+     display: none; 
     width: 100%;
     margin: 0;
     padding: 0;
@@ -91,6 +92,14 @@
     line-height: 60px;
     text-align: center;
     color: #000;
+}
+.z_founda_l .z_play{
+	position: absolute;
+	left: 45%;
+	top: 36%;
+	z-index: 100;
+	font-size: 80px;
+	color: #fff;
 }
 .z_founda_r{
     cursor: pointer;
@@ -191,13 +200,13 @@
     width: 100%;
 }
 .z_lips_l .zf_img img{
-    display: none;
+    /*display: none;*/
     width: 100%;
     margin: 0;
     padding: 0;
 }
 .z_lips_l video{
-    /* display: none; */
+     display: none; 
     width: 100%;
     margin: 0;
     padding: 0;
@@ -230,6 +239,14 @@
 .z_p2:hover{
     font-weight: bold;
 }
+.z_lips_l .z_play{
+	position: absolute;
+	left: 45%;
+	top: 36%;
+	z-index: 100;
+	font-size: 80px;
+	color: #fff;
+}
 .z_lips_r{
     cursor: pointer;
     float: right;
@@ -245,7 +262,7 @@
     color: #000;
     font-family: Century Gothic Std Bold;
     font-size: 16px;
-    line-height: 25px;「」
+    line-height: 25px;
 }
 .z_lips_r p:nth-of-type(1){
     margin-top: 10px;
