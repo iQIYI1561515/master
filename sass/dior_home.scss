@@ -16,10 +16,7 @@ body {
 }
 
 .wrap{
-  // display: flex;
-  // flex-wrap: wrap;
-  // flex-direction: row;
-  // justify-content: space-between;
+ 
   background-color: white;
 }
 
@@ -28,3 +25,4 @@ body {
 @import "hot";
 @import "products";
 @import "service";
+@import "service-guild";

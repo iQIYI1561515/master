@@ -1,19 +1,53 @@
-.map{
+.map {
   overflow: hidden;
   width: 100%;
-  height: 18.75rem;
   background: url('../images/home_map_bg.jpg') no-repeat center top;
   background-size: 100% 100%;
   text-align: center;
-  p{
+
+  p {
     margin-top: 5.875rem;
     font-size: 2rem;
     line-height: 2.375rem;
   }
+
+  div {
+    overflow: hidden;
+    margin: 1.575rem auto 5.5rem;
+    border: .125rem solid black;
+    border-radius: 3.415rem;
+    height: 3.43rem;
+    width: 20.6rem;
+
+    input {
+      box-sizing: border-box;
+      padding-left: 1.7rem;
+      width: 15.3rem;
+      height: 3.43rem;
+      border: none;
+      vertical-align: top;
+      font-size: .9375rem;
+      line-height: 3.425rem;
+    }
+
+    button {
+      border: none;
+      width: 5rem;
+      height: 3.43rem;
+      background-color: black;
+      cursor: pointer;
+      i{
+        font-size: 2.125rem;
+        color: white;
+      }
+    }
+
+
+  }
 }
 
-.service{
-  img{
+.service {
+  img {
     width: 100%;
   }
 }
