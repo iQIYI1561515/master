@@ -4,7 +4,7 @@ html {
 
 body {
   width: 100%;
-  background-color: white;
+  font-family: 'Century Gothic Std', Arial, sans-serif;
 }
 
 .fl {
@@ -15,5 +15,16 @@ body {
   float: right;
 }
 
+.wrap{
+  // display: flex;
+  // flex-wrap: wrap;
+  // flex-direction: row;
+  // justify-content: space-between;
+  background-color: white;
+}
+
 @import "header";
 @import "nav";
+@import "hot";
+@import "products";
+@import "service";

@@ -1,0 +1,220 @@
+.hot {
+  overflow: hidden;
+  width: 100%;
+  background-color: #f6f6f6;
+
+  .date {
+    text-align: center;
+    font-size: .9375rem;
+    line-height: 2.21rem;
+    p:nth-child(1){
+      margin: .625rem auto 0;
+      width: 3.1875rem;
+      border-bottom: .0625rem solid black;
+    }
+
+    p:nth-child(3){
+      margin: .625rem auto 1.125rem;
+      font-size: 3.25rem;
+      font-family: DinCondensedBold,'Century Gothic Std',Arial,sans-serif;
+      line-height: 3.25rem;
+      
+      
+    }
+  }
+
+  .swiper-container {
+    width: 66rem;
+    
+
+    .hot-contain {
+      display: flex;
+      margin: 0 auto;
+      width: 58.1875rem;
+      .content:nth-child(2) {
+        margin: 0 1.8rem;
+      }
+
+      .content {
+        flex: 1;
+        color: black;
+        text-align: center;
+
+        img {
+          width: 100%;
+          margin-bottom: .2rem;
+          cursor: pointer;
+        }
+
+        .aButton {
+          display: inline-block;
+          margin-bottom: 5.825rem;
+          width: 14.2625rem;
+          height: 2.9rem;
+          line-height: 2.9rem;
+          border-radius: 2rem;
+          font-size: .9375rem;
+          text-align: center;
+          background-color: black;
+          cursor: pointer;
+
+          .suo {
+            font-size: 1.2rem;
+          }
+
+          span {
+            color: white;
+          }
+        }
+
+        .text1 {
+          font-size: .9075rem;
+          line-height: 1.5rem;
+
+          p:nth-child(1) {
+            margin-top: 1.5rem;
+            color: #707070;
+          }
+
+          p:nth-child(2) {
+            margin-bottom: .9375rem;
+            i{
+              font-weight: 900;
+            }
+          }
+
+          p:nth-child(3) {
+            margin-bottom: 5.5rem;
+          }
+
+          p:nth-child(4) {
+            margin-bottom: .9375rem;
+            font-weight: 800;
+          }
+        }
+
+        .text2 {
+          font-size: .9375rem;
+          line-height: 1.5rem;
+
+          p:nth-child(1) {
+            margin-top: 1.5rem;
+            color: #707070;
+            line-height: 1.25rem;
+          }
+
+          p:nth-child(2) {
+            font-size: .9075rem;
+            margin-bottom: 1.125rem;
+            line-height: 1.25rem;
+
+           
+          }
+
+          p:nth-child(7) {
+            margin: 1.25rem 0 .9375rem 0;
+            font-weight: 800;
+          }
+          
+        }
+        .text3 {
+          font-size: .9375rem;
+          line-height: 1.5rem;
+          font-family: 'Century Gothic Std Bold';
+
+          p:nth-child(1) {
+            margin-top: .6rem;
+            color: #707070;
+          }
+
+          p:nth-child(2) {
+            color: #707070;
+          }
+
+          p:nth-child(3) {
+            margin-bottom: 7.4rem;
+          }
+
+          p:nth-child(4) {
+            margin-bottom: .9375rem;
+            font-weight: 800;
+          }
+        }
+        .text4 {
+          font-size: .9375rem;
+          line-height: 1.5rem;
+          font-family: 'Century Gothic Std Bold';
+
+          p:nth-of-type(1) {
+            margin-top: .6rem;
+            color: #707070;
+          }
+
+          p:nth-of-type(2) {
+            color: #707070;
+          }
+
+          p:nth-of-type(3) {
+            color: #707070;
+          }
+
+          p:nth-of-type(4) {
+            margin: 5.8rem 0 .9375rem 0;
+            font-weight: 800;
+          }
+        }
+
+        .text5 {
+          font-size: .9375rem;
+          line-height: 1.5rem;
+
+          p:nth-child(1) {
+            margin-top: 1.5rem;
+            color: #707070;
+            line-height: 1.25rem;
+          }
+
+          p:nth-child(2) {
+            font-size: .9075rem;
+            margin-bottom: 1.125rem;
+            line-height: 1.25rem;
+
+            i {
+              font-weight: 800;
+            }
+          }
+
+          p:nth-child(5) {
+            margin: 4.25rem 0 .9375rem 0;
+            font-weight: 800;
+          }
+          
+        }
+      }
+    }
+
+  }
+  .swiper-button-prev {
+    left: 0;
+    top: 13.125rem;
+    outline: none;
+    background-size: .875rem 1.25rem;
+  }
+
+  .swiper-button-next {
+    right: 0;
+    top: 13.125rem;
+    outline: none;
+    background-size: .875rem 1.25rem;
+  }
+
+  .swiper-pagination {
+    span {
+      position: relative;
+      top: -0.5rem;
+      width: .4625rem;
+      height: .4625rem;
+      background-color: black;
+    }
+  }
+}
