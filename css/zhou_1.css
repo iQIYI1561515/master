@@ -7,7 +7,7 @@
 }
 .z_banner1 {
     width: 95%;
-    max-height:616px;
+    /*max-height:616px;*/
     margin: 40px auto;    
 }
 .z_banner1 a{
@@ -44,29 +44,54 @@
 /* 粉底液 */
 .z_founda{
     width: 95%;
-    max-height:680px;
+    /*max-height:680px;*/
     margin: 0 auto;
 }
  .z_founda_l{
     cursor: pointer;
     width: 68%;
     float: left;
-    position: relative;
 }
-.z_founda_l .zz_img{
+.z_founda_l .play1{
+	width: 100%;
+	position: relative;
+}
+.z_founda_l .play1 .zz_img{
     width: 100%;
 }
-.z_founda_l .zz_img img{
+.z_founda_l .play1 .zz_img img{
     /*display: none;*/
+   /*position: absolute;*/
+   /*z-index: 0;*/
     width: 100%;
     margin: 0;
     padding: 0;
 }
-.z_founda_l video{
-     display: none; 
+.z_founda_l .play1 video{
+   /*position: absolute;*/	
+	display: none;
+	z-index: 50;
     width: 100%;
     margin: 0;
     padding: 0;
+}
+.z_founda_l .play1 .btn1{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 90%;
+	z-index: 300;
+}
+.z_founda_l .play1 .btn1 .z_play{
+	position: absolute;
+	left: 47%;
+	top: 47%;
+	z-index: 400;
+	font-size: 80px;
+	color: #fff;
 }
 .z_founda_l a{
     color: #000;
@@ -93,23 +118,30 @@
     text-align: center;
     color: #000;
 }
-.z_founda_l .z_play{
-	position: absolute;
-	left: 45%;
-	top: 36%;
-	z-index: 100;
-	font-size: 80px;
-	color: #fff;
-}
+
 .z_founda_r{
     cursor: pointer;
     float: right;
     width: 29%;
 }
-.z_founda_r .zz_img{
+.z_founda_r .zz_img2{
     width: 100%;
+    position: relative;
 }
-.z_founda_r .zz_img img{
+.z_founda_r .zz_img2 .shou1{
+	position: absolute;
+	font-size: 26px;
+	right:15px;
+	top: 15px;
+}
+.z_founda_r .zz_img2 .shou2{
+	position: absolute;
+	display: none;
+	font-size: 26px;
+	right:15px;
+	top: 15px;
+}
+.z_founda_r .zz_img2 img{
     width: 100%;
 }
 .z_founda_r p{
@@ -138,19 +170,109 @@
     margin: 40px auto;
 }
 /* 口红板块宽度设置 */
-.z_founda_l .zf_img{
+.z_frag_l .zf_img1{
     width: 100%;
 }
 /* 口红板块大图片 */
-.z_founda_l .zf_img img{
+.z_frag{
+    width: 95%;
+    /*max-height:680px;*/
+    margin: 0 auto;
+    margin-top: 30px;
+}
+ .z_frag_l{
+    cursor: pointer;
+    width: 68%;
+    float: left;}
+
+.z_frag_l .fz_img1{
+    width: 100%;
+}
+.z_frag_l .zf_img1 img{
+    /*display: none;*/
+   /*position: absolute;*/
+   /*z-index: 0;*/
     width: 100%;
     margin: 0;
     padding: 0;
 }
+
+.z_frag_l a{
+    color: #000;
+    display: block;
+}
+.z_h2{
+    font-size: 32px;
+    font-family: Century Gothic Std,Arial,sans-serif;
+    font-weight: 400;
+}
+.z_p1{
+    font-size:14px ;
+    line-height:14px ;
+    color: #000;
+}
+.z_p2{
+    margin-top: 15px;
+    width: 130px;
+    height: 60px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    font-size: 14px;
+    line-height: 60px;
+    text-align: center;
+    color: #000;
+}
+
+.z_frag_r{
+    cursor: pointer;
+    float: right;
+    width: 29%;
+}
+.z_frag_r .zf_img2{
+	position: relative;
+    width: 100%;
+}
+.z_frag_r .zf_img2 img{
+    width: 100%;
+}
+.z_frag_r .zf_img2 .shou1{
+	position: absolute;
+	font-size: 26px;
+	right:15px;
+	top: 15px;
+}
+.z_frag_r .zf_img2 .shou2{
+	position: absolute;
+	display: none;
+	font-size: 26px;
+	right:15px;
+	top: 15px;
+}
+.z_frag_r p{
+    color: #000;
+    font-family: Century Gothic Std Bold;
+    font-size: 16px;
+    line-height: 25px;「」
+}
+.z_frag_r p:nth-of-type(1){
+    margin-top: 10px;
+    color: #757575;
+}
+.z_frag_r p:nth-of-type(4)>span{
+    color: #ccc;
+}
+.z_frag_r p:nth-of-type(4)>span:nth-last-child(4){
+    color: #000;
+}
+.z_frag_r h3{
+    font-family: Century Gothic Std Bold;
+    margin-top: 10px;
+}
+
 /* 变色润唇膏系列展示 */
 .z_banner2 {
     width: 95%;
-    max-height:616px;
+    /*max-height:616px;*/
     margin: 40px auto;
 }
 .z_banner2 a{
@@ -187,26 +309,45 @@
 /* 丰唇蜜系列 */
 .z_lips{
     width: 95%;
-    max-height:680px;
+    /*max-height:680px;*/
     margin: 0 auto;
 }
  .z_lips_l{
     cursor: pointer;
     width: 68%;
     float: left;
-    position: relative;
 }
-.z_lips_l .zf_img{
+.z_lips_l .play2{
+	width: 100%;
+	position: relative;
+}
+.z_lips_l .zl_img1{
     width: 100%;
 }
-.z_lips_l .zf_img img{
+.z_lips_l .zl_img1 img{
     /*display: none;*/
     width: 100%;
     margin: 0;
     padding: 0;
 }
+.z_lips_l .play2 .btn2{
+	width: 100%;
+	height: 90%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+.z_lips_l .play2 .btn2 .z_play2{
+	position: absolute;
+	left: 45%;
+	top: 36%;
+	z-index: 100;
+	font-size: 80px;
+	color: #fff;
+}
 .z_lips_l video{
-     display: none; 
+    display: none; 
     width: 100%;
     margin: 0;
     padding: 0;
@@ -239,23 +380,30 @@
 .z_p2:hover{
     font-weight: bold;
 }
-.z_lips_l .z_play{
-	position: absolute;
-	left: 45%;
-	top: 36%;
-	z-index: 100;
-	font-size: 80px;
-	color: #fff;
-}
+
 .z_lips_r{
     cursor: pointer;
     float: right;
     width: 29%;
 }
-.z_lips_r .zz_img{
+.z_lips_r .zl_img2{
     width: 100%;
+    position: relative;
 }
-.z_lips_r .zz_img img{
+.z_lips_r .zl_img2 .shou1{
+	position: absolute;
+	font-size: 26px;
+	right:15px;
+	top: 15px;
+}
+.z_lips_r .zl_img2 .shou2{
+	position: absolute;
+	display: none;
+	font-size: 26px;
+	right:15px;
+	top: 15px;
+}
+.z_lips_r .zz_img2 img{
     width: 100%;
 }
 .z_lips_r p{
@@ -337,32 +485,54 @@
     float: left;
 }
 .z_Nproduct ul li a{
-display: block;
+	display: block;
+	color: #000000;
     width: 100%;
+    position: relative;
+}
+.z_Nproduct ul li a .shou1{
+	position: absolute;
+	font-size: 26px;
+	right:15px;
+	top: 15px;
+	color: #000000;
+}
+.z_Nproduct ul li a .shou2{
+	position: absolute;
+	display: none;
+	font-size: 26px;
+	right:15px;
+	color: #000000;
+	top: 15px;
 }
 .z_Nproduct ul li a img{
     width: 100%;
 }
 /* 图片文字说明 */
-.z_Nproduct ul li a p{
+.z_Nproduct ul li a .sMessage{
+	width: 70%;
+}
+.z_Nproduct ul li a .sMessage p{
     color: #000;
     font-family: Century Gothic Std Bold;
     font-size: 16px;
     line-height: 25px;「」
 }
-.z_Nproduct ul li a p:nth-of-type(1){
+.z_Nproduct ul li a .sMessage p:nth-of-type(1){
     margin-top: 10px;
     color: #757575;
 }
-.z_Nproduct ul li a p:nth-of-type(4)>span{
+.z_Nproduct ul li a .sMessage p:nth-of-type(4)>span{
     color: #ccc;
 }
-.z_Nproduct ul li a p:nth-of-type(4)>span:nth-last-child(4){
+.z_Nproduct ul li a .sMessage p:nth-of-type(4)>span:nth-last-child(4){
     color: #000;
 }
-.z_Nproduct ul li a h3{
+.z_Nproduct ul li a .sMessage h3{
     font-family: Century Gothic Std Bold;
     margin-top: 10px;
+    color: #000000;
+    font-size: 16px;
 }
 .z_Nproduct .z_more{
     width: 100%;

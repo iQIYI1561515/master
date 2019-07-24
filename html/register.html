@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/iconfont.css"/>
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/register.css" />
+		<style type="text/css">			
+			a{
+				color: #000;
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="r-head">
+			<div class="r-header">
+				<a href="javascript:history.go(-1);"><span class="back iconfont iconright"></span></a>
+				<a href="#" class="r-logo"><img src="../images/logo.png"/></a>
+				<div class="header-group">
+					<a href="map.html"><span class="com iconfont iconicon-location" style="color: #A0A0A0;"></span></a>
+					<a href="#"><span class="com iconfont iconzhanghao"></span></a>
+					<a href="#"><span class="com iconfont icongouwudai"></span></a>
+				</div>
+			</div>
+		</div>
+		<div class="r-main">
+			<div class="main-box">
+				<div class="main-content">
+					<div class="account-create">
+						<div class="account-create-tit">
+							<h1>注册</h1>
+						</div>
+						<div class="fieldset">
+							<p class="fieldset-tit">
+								<span>如您已是Dior美妆店铺会员，请使用会员手机号码注册，系统将自动绑定您的官网帐号并合并您在官网和店铺的Dior美妆购物积分。</span>
+								<span class="zhu">*为必填项目。</span>
+							</p>
+							<ul class="form-list">
+				                <li class="fields newfields">
+				                    <label>姓*</label>
+				                    <div class="input-box">
+				                        <input type="text" maxlength="30" id="firstname" name="firstname" value="" title="姓" placeholder="姓" class="input-text required-entry allow-name-reg">
+				                    	<p class="err1"></p>
+				                    </div>
+				                </li>
+				                <li class="newfields">
+				                    <label>名*</label>
+				                    <div class="input-box">
+				                        <input type="text" id="lastname" name="lastname" value="" title="名" placeholder="名" class="input-text required-entry allow-name-reg">
+			                        	<p class="err2"></p>
+				                    </div>
+				                </li>
+				                <li class="fields newfields">
+				                    <label for="telephoneNo" class="required">电话*</label>
+				                    <div class="input-box">
+				                        <input type="text" autocapitalize="off" autocorrect="off" name="mobile" placeholder="电话" maxlength="11" id="telephoneNo" value="" title="" class="input-text required-entry validate-phone dior-text-alphanum">
+			                        	<p class="err3"></p>
+				                    </div>
+				                </li>
+				                <li style="height: 50px;" class="newfields">
+				                	<label for="gender">称谓*</label>
+									<div class="custom-select gender">
+									    <select id="gender" name="gender" title="性别" class="validate-select-new">
+				                            <option value="" selected="selected">选择称谓</option>
+				                            <option value="2">女士</option>
+				                            <option value="1">先生</option>
+							                <option value="3">小姐</option>
+									    </select>
+									    <p class="advice"></p>
+									    <i></i>
+									</div>
+								</li>
+								<li class="fields">
+				                    <label for="create-password" class="required">密码*</label>
+				                  	<div class="input-box">
+				                    	<input type="text" autocapitalize="off" autocorrect="off" name="password" id="create-password" title="密码" class="input-text required-entry validate-password" placeholder="密码" onfocus="this.type='password'" autocomplete="new-password">
+			                    		<p class="err4"></p>
+				                  	</div>
+				                </li>
+			                </ul>
+			                <div class="statement-block">
+					            <span class="gouxuan">
+					                <a href="javascript:void(0)" class="jqTransformCheckbox checkboxBtn" style="display: inline-block;"></a>
+					                <input type="checkbox" class="checkbox2 js-sample-checkbox jqTransformHidden validate-agree" id="statement-checkbox">
+					            </span>
+					            <label class="" style="cursor: pointer;">
+			                		我已阅读并接受<a href="#" class="statement_popup fancybox">个人信息收集声明以及网站使用和销售条款</a>
+					            </label>
+					        </div>
+                			<div class="buttons-set" style=" position: relative;">
+					            <button type="submit" id="add" style="position: absolute; top: 0; right: 0;" title="注册" class="button gtm_submit_registerpage"><span><span>注册</span></span></button>
+					        </div>
+				        </div>
+			        </div>
+			    </div>
+			</div>
+		</div>
+		<div class="store">
+			<div class="image">
+				<img src="../images/bg1.jpg"/>
+			</div>
+			<div class="store-text">
+				<h2>精品店</h2>
+				<div class="store-form">
+					<form>
+						<input type="text" class="txt" placeholder="城市，邮编，国家"/>
+						<button class="btn2" ><span class="fdj iconfont iconfangdajing"></span></button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer-common">
+				<div class="footer-left">
+					<span class="title">电子通讯</span>
+					<div class="content">
+						<div class="text">
+							<span class="input">
+								<input type="email" placeholder="*请输入邮箱" />
+							</span>
+							
+						</div>
+						
+						<button>确定</button>
+					</div>
+					
+				</div>
+			</div>
+			<div class="footer-common">
+				<ul class="link-list">
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">配送及退货</a></li>
+					<li><a href="#">常见问题</a></li>
+					<li><a href="#">使用条款</a></li>
+					<li><a href="#">数据保护章程</a></li>
+				</ul>
+				<div class="notice-list">
+					<div class="notice">
+						<img src="../images/china-0.png"/>
+						<a href="#">电子营业执照</a>
+					</div>
+					<div class="notice">
+						<img src="../images/china-1.png"/>
+						<a href="#">沪公网安备 31010602002343号</a>
+					</div>
+					<div class="notice">
+						<img src="../images/china-2.png"/>
+						<a href="#">沪ICP备19005922号</a>
+					</div>
+					<span class="left">尚圃电子商务（上海）有限公司</span>
+					<span>上海市南京西路1266号恒隆广场1期29F</span>
+				</div>
+			</div>
+			<div class="footer-common">
+				<div class="about">
+					<div class="about-top">
+						<span class="me">关注我们</span>
+						<a href="#"><span class="xl iconfont iconxinlang"></span></a>
+					</div>
+				</div>
+				<div class="about">
+					<div class="about-bottom">
+						<span class="city">国家/地区</span>
+						<div class="area">
+							<button>
+								<span class="area-big">
+									<span class="area-mid">
+										<span class="mid iconfont icongouwudai"></span>
+										<span class="china">中国大陆 (CNY¥)</span>
+									</span>
+									<span class="jt iconfont iconfangdajing"></span>
+								</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<button class="backToTop">
+			<span class="toTop iconfont iconhuidaodingbu"></span>
+		</button>
+		<script src="../jquery-1.8.3/jquery-1.8.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/register.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/common.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
