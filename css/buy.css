@@ -1,0 +1,282 @@
+			.buy-main{
+				overflow: hidden;
+			}
+			.page-content{
+			    width: 90rem;
+    			margin: 1.25rem auto;
+			}
+			.top-content{
+			    display: flex;
+    			padding: 1.25rem 0;
+			}
+			.top-content-left{
+			    width: 60%
+			}
+			.top-content-left-img{
+				display: flex;
+			    justify-content: space-between;
+			    flex-wrap: wrap;
+			    /*margin: -.625rem;*/
+		        /*padding: 0 .625rem .625rem;*/
+    			box-sizing: border-box;
+			}
+			.top-content-right{
+				width: 34%;
+			    margin-left: 6%;
+			    z-index: 1;
+			}
+			.top-content-desktop-sticky{
+			    padding: 1.25rem 0;
+    			margin-top: -1.25rem;
+			}
+			.product-titles {
+			    text-align: left;
+			    margin-bottom: 1.875rem;
+			}
+			.product-titles-tags {
+			    margin-bottom: .25rem;
+			    font-size: .9375rem;
+			}
+			.tag{
+			    color: #757575;
+    			font-size: .9375rem;
+			}
+			.product-titles h1{
+				font-size: 2rem;
+    			line-height: 2.375rem;
+    			width: 100%;
+    			font-weight: 400;
+			}
+			.product-titles h2{
+			    font-size: .9375rem;
+		    	line-height: 1.25rem;
+			    margin-top: .3125rem;
+			    font-weight: 400;
+			}
+			.product-variations{
+			    border-top: .0625rem solid #e5e5e5;
+		        padding-top: 1.25rem;
+			}
+			.swatches{
+			    display: flex;
+    			flex-direction: column;
+			}
+			.circle{
+				width: 40px;
+				height: 40px;
+				border-radius: 50%;
+				position: relative;
+				float: left;
+				margin-right: 20px;
+				cursor: pointer;
+			}
+			.circleactive{
+				border: 1px solid #000;
+			}
+			.circle-sm{
+				background: red;
+				width: 34px;
+				height: 34px;
+				display: inline-block;
+				border-radius: 50%;
+				text-align: center;
+				position: absolute;
+				left: 8%;
+				top: 8%;
+			}
+			.circle-sm1{
+				background: #CC0000;
+				width: 34px;
+				height: 34px;
+				display: inline-block;
+				border-radius: 50%;
+				text-align: center;
+				position: absolute;
+				left: 8%;
+				top: 8%;
+			}
+			.swatches_actions {
+				margin-top: 43px;
+			    display: flex;
+			    flex-direction: row;
+			    justify-content: center;
+			}
+			.swatches_actions button{
+			    justify-content: center;
+    			align-items: center;
+				width: 10.125rem;
+			    max-width: 12.1875rem;
+			    margin-bottom: 1.25rem;
+			    align-self: center;
+			    color: #000;
+			    border: .0625rem solid #000;
+			    background-color: #fff;
+		        text-align: center;
+			    box-sizing: border-box;
+			    cursor: pointer;
+			    display: inline-flex;
+			    height: 3rem;
+			    border-radius: 1.5rem;
+			    font-size: .9375rem;
+			    line-height: 1.0625rem;
+			    padding: 0 2rem;
+			}
+			.circle-sm2{
+				background: red;
+				width: 34px;
+				height: 34px;
+				display: inline-block;
+				border-radius: 50%;
+				float: left;
+			}
+			.circle-sm3{
+				background: #CC0000;
+				width: 34px;
+				height: 34px;
+				display: inline-block;
+				border-radius: 50%;
+				float: left;
+			}
+			.goodsdetail{
+				overflow: hidden;
+			    padding: 1.5rem .5625rem;
+			    border-top: .0625rem solid #e5e5e5;
+			    border-bottom: .0625rem solid #e5e5e5;
+			    box-sizing: border-box;
+			}
+			.goodsdetail .goodsdetail-news{
+				float: left;
+				margin-left: 10px;
+			}
+			.detail1{
+				overflow: hidden;
+				display: none;
+			}
+			.detail1show{
+				display: block;
+			}
+			.goodsdetail div p{
+			    font-size: .9375rem;
+			}
+			.goodsdetail div span{
+			    color: #757575;
+    			font-size: .8125rem;
+			}
+			.goodsdetail-price{
+				float: right;
+				text-align: center;
+				margin-right: 20px;
+				line-height: 40px;
+			}
+			.product-engraving {
+			    margin-top: 1.25rem;
+		        display: flex;
+			    align-items: center;
+			    justify-content: space-between;
+			    font-size: .9375rem;
+			}
+			.product-engraving button{
+				background: #fff;
+				border: none;
+				cursor: pointer;
+			}
+			.pen{
+				font-size: 30px;
+			}
+			.exclusive{
+				text-decoration: underline;
+			    min-height: 2.125rem;
+		        margin-left: .7375rem;
+		        text-align: center;
+			}
+			.product-engraving p{
+				margin-right: 30px;
+			}
+			.nowbuy{
+			    padding-top: 1.25rem;
+			    margin-top: 1.5rem;
+			}
+			.nowbuy button{
+				height: 3.75rem;
+    			border-radius: 3.75rem;
+    			width: 26.25rem;
+    			border: none;
+    			background: #000;
+    			color: #fff;
+    			cursor: pointer;
+			}
+			.bottom-content{
+			    margin: 2.5rem 0;
+			}
+			.product-tabs{
+				margin: 5rem 0;
+			}
+			.tabs-header{
+				display: flex;
+			    margin: auto;
+			    height: 2.8125rem;
+			    border-bottom: .0625rem solid #e5e5e5;
+			    overflow-x: auto;
+			    overflow-y: hidden;
+			}
+			.tabs-header li{
+			    flex: 0 0 auto;
+			    margin: auto;
+			    cursor: pointer;
+			}
+			.tabs-header-item-selected {
+			    border-bottom: .125rem solid #000;
+			}
+			.tabs-header-item{
+			    display: inline-flex;
+			    align-items: center;
+			    height: 2.8125rem;
+			    box-sizing: border-box;
+			    padding: 0 .625rem;
+			}
+			.tabs-content{
+			    display: flex;
+			    position: relative;
+			    box-sizing: border-box;
+			    padding: 1.25rem 1.25rem 0;
+		        font-size: .9375rem;
+    			line-height: 1.5rem;
+    			min-height: 158px;
+			    border-bottom: .0625rem solid #e5e5e5;
+			}
+			.buy-content{
+				margin-top: 1.25rem;
+			    color: #000;
+			    width: 100%;
+			    float: left;
+			    display: none;
+			}
+			.buy-show{
+				display: block;
+			}
+			.recently{
+				
+			}
+			.recently h1{
+				text-align: center;
+    			margin-bottom: 1.875rem;
+			    font-size: .9375rem;
+    			line-height: 1.25rem;
+			}
+			.recently div{
+				transform: translateZ(0);
+			}
+			.recentlylist{
+				overflow: hidden;
+			    width: 2160px;
+		            transform: translate3d(0px, 0px, 0px);
+			}
+			.recentlylist li{
+				float: left;
+				width: 202px;
+			    padding: 0 1.25rem;
+			}
+			.recentlylist li img{
+				width: 100%;
+				height: 216px;
+			}

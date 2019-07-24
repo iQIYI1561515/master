@@ -44,6 +44,7 @@
 
 .z_contont2 ul{
     width: 200%;
+    /*margin-left: -1120px;*/
 }
 .z_contont2 ul li{
     margin: 0 1%;
@@ -54,10 +55,69 @@
     width: 100%;
 }
 .z_contont2 .z_turn1{
-    width: 400px;
-    height: 40px;
+	padding-top: 36px;
+	width: 142px;
+    text-align: center;
+    /*height: 40px;*/
     margin: 0 auto;
-    background: yellowgreen;
+}
+.z_contont2 .z_turn1 .prev1{
+	display: inline-block;
+	float: left;
+	border: 1px solid #888888;
+	width: 32px;
+	height: 32px;
+	border-radius:16px;
+	margin-right: 20px;	
+	cursor: pointer;
+}
+.z_contont2 .z_turn1 .prev1:hover{
+	border: 1px solid #333;
+}
+.z_contont2 .z_turn1 .prev1 .prev1_a{	
+	color: #333;
+	font-size: 28px;
+	line-height: 31px;	
+}
+.z_contont2 .z_turn1 .dot{
+	float: left;
+}
+.z_contont2 .z_turn1 .dot .dot1_1{
+	float: left;
+	cursor: pointer;	
+	float: left;
+	color: #888;	
+	line-height: 32px;	
+	font-size: 20px;
+	color: #000000;	
+}
+.z_contont2 .z_turn1 .dot .dot1_2{
+	float: left;
+	cursor: pointer;	
+	float: left;
+	color: #888;	
+	line-height: 32px;	
+	font-size: 12px;
+	color: #888888;	
+}
+.z_contont2 .z_turn1 .next1{
+	cursor: pointer;	
+	display: inline-block;
+	float: left;
+	border: 1px solid #888888;
+	width: 32px;
+	margin-top:30px
+	height: 32px;
+	border-radius:16px ;
+	margin-left: 20px;
+}
+.z_contont2 .z_turn1 .next1:hover{
+	border: 1px solid #333;
+}
+.z_contont2 .z_turn1 .next1 .next1_a{
+	color: #333;
+	font-size: 28px;
+	line-height: 31px;		
 }
 .z_contont2 > p{
     text-align: center;
@@ -96,28 +156,88 @@
     font-family: Century Gothic Std,Arial,sans-serif; 
     text-align: center;
 } 
-.z_contont3 .slick_list{
+.z_contont3 .slick_list2{
     width: 78%;
     overflow: visible;
 }
 /* <!-- 迪奥锁妆粉底液(1) 亮泽妆效 图片 --> */
 
-.z_contont3 ul{
+.z_contont3 .slick_list2 ul{
+	/*overflow: hidden;*/
     width: 200%;
 }
-.z_contont3 ul li{
+.z_contont3 .slick_list2 ul li{
     margin: 0 1%;
     width: 23%;
     float: left;
 }
-.z_contont3 ul li img{
+.z_contont3 .slick_list2 ul li img{
     width: 100%;
 }
-.z_contont3 .z_turn2{/*轮播按钮*/
-    width: 400px;
-    height: 40px;
+.z_contont3 .z_turn2{
+	padding-top: 36px;
+	width: 142px;
+    text-align: center;
+    /*height: 40px;*/
     margin: 0 auto;
-    background: yellowgreen;
+}
+.z_contont3 .z_turn2 .prev2{
+	display: inline-block;
+	float: left;
+	border: 1px solid #888888;
+	width: 32px;
+	height: 32px;
+	border-radius:16px;
+	margin-right: 20px;	
+	cursor: pointer;
+}
+.z_contont3 .z_turn2 .prev2:hover{
+	border: 1px solid #333;
+}
+.z_contont3 .z_turn2 .prev2 .prev2_a{	
+	color: #333;
+	font-size: 28px;
+	line-height: 31px;	
+}
+.z_contont3 .z_turn2 .dot_2{
+	float: left;
+}
+.z_contont3 .z_turn2 .dot_2 .dot2_1{
+	float: left;
+	cursor: pointer;	
+	float: left;
+	color: #888;	
+	line-height: 32px;	
+	font-size: 20px;
+	color: #000000;	
+}
+.z_contont3 .z_turn2 .dot_2 .dot2_2{
+	float: left;
+	cursor: pointer;	
+	float: left;
+	color: #888;	
+	line-height: 32px;	
+	font-size: 12px;
+	color: #888888;	
+}
+.z_contont3 .z_turn2 .next2{
+	cursor: pointer;	
+	display: inline-block;
+	float: left;
+	border: 1px solid #888888;
+	width: 32px;
+	margin-top:30px
+	height: 32px;
+	border-radius:16px ;
+	margin-left: 20px;
+}
+.z_contont3 .z_turn2 .next2:hover{
+	border: 1px solid #333;
+}
+.z_contont3 .z_turn2 .next2 .next2_a{
+	color: #333;
+	font-size: 28px;
+	line-height: 31px;		
 }
 .z_contont3 > p{
     text-align: center;
@@ -149,6 +269,9 @@
     margin: 30px auto;
     padding: 0;
 }
+.z_contont4 img{
+	width: 100%;
+}
 /* -------哑光妆效OR亮泽妆效？---------- */
 .z_contont5{
     width: 95%;
@@ -171,8 +294,21 @@
 .z_contont5 .co_select{
     text-align: center;
 }
-.z_contont5 .co_select span{
+.z_contont5 .co_select .btn3{
     /* height: 70px; */
+   cursor: pointer;
+    font-family: Century Gothic Std,Arial,sans-serif; 
+    display: inline-block;    
+    line-height: 40px;
+    padding: 0 20px;
+    font-size: 16px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    color: #000;
+}
+.z_contont5 .co_select .btn4{
+    /* height: 70px; */
+   cursor: pointer;
     font-family: Century Gothic Std,Arial,sans-serif; 
     display: inline-block;    
     line-height: 40px;
@@ -182,10 +318,6 @@
     border-radius: 20px;
     color: #757575;
 }
-.z_contont5 .co_select span:hover{
-    color: #000;
-    border: 2px solid #000;
-}
 .z_contont5 .zz_compare1{
     width: 800px;
     padding: 40px;
@@ -194,6 +326,60 @@
     border: 1px solid #ccc;
     position: relative;
 }
+.z_contont5 .zz_compare1 .zz_cImg{
+    position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+/*-------白皙肤色--------------*/
+.z_contont5 .zz_compare1 .zz_cImg .zz_cImg1{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.zz_cImg .moveline1{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	height: 100%;
+	width: 1px;
+	background: #fff;
+	z-index: 100;
+}
+.zz_cImg1L{
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+}
+.zz_cImg1 .z_img4{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -100;
+}
+
+/*--健康偏浅肤色-----*/
+.z_contont5 .zz_compare1 .zz_cImg .zz_cImg2{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	display: none;	
+}
+
+.zz_cImg2L{
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+}
+.zz_cImg2 .z_img6{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -100;
+}
+/*-----文字部分--------------*/
 .z_contont5 .zz_compare1 strong{
     font-size: 24px;
     font-family: Century Gothic Std,Arial,sans-serif; 
@@ -248,23 +434,41 @@
 }
 /* ----视频-------- */
  .skill_l{
-    /* cursor: pointer; */
     width: 66%;
     float: left;
-    position: relative;
 }
-.skill_l .skill_img1{
-    cursor: pointer;
+.skill_l .play1{
+    cursor: pointer;	
+	width: 100%;
+	position:relative ;
+}
+.skill_l .play1 .skill_img1{
     width: 100%;
 }
-.skill_l .skill_img1 img{
+.skill_l .play1 .skill_img1 img{
     /*display: none;*/
     width: 100%;
     margin: 0;
     padding: 0;
 }
-.skill_l video{
-     display: none; 
+.skill_l .play1 .btn1{
+	width: 100%;
+	height: 90%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+.skill_l .play1 .btn1 .z_play1{
+	position: absolute;
+	font-size: 80px;
+	left: 47%;
+	top: 42%;
+	z-index: 200;
+	color: #fff;	
+}
+.skill_l .play1 video{
+    display: none; 
     cursor: pointer;
     width: 100%;
     margin: 0;
@@ -276,14 +480,7 @@
     font-family: Century Gothic Std,Arial,sans-serif;
     color: #000;
 }
-.skill_l .z_play1{
-	position: absolute;
-	font-size: 80px;
-	left: 47%;
-	top: 42%;
-	z-index: 100;
-	color: #fff;
-}
+
 /* ------右边图片部分--------- */
 .skill_r{
     cursor: pointer;
@@ -334,21 +531,39 @@
     cursor: pointer;
     width: 66%;
     float: left;
-    position: relative;
 }
-.skill_lb .skill_img3{
-    cursor: pointer;
+.skill_lb .play2{
+	width: 100%;
+    cursor: pointer;	
+	position: relative;
+}
+.skill_lb .play2 .skill_img3{
     width: 100%;
 }
-.skill_lb .skill_img3 img{
+.skill_lb .play2 .skill_img3 img{
     /*display: none;*/
     width: 100%;
     margin: 0;
     padding: 0;
 }
-.skill_lb video{
-     display: none; 
-    cursor: pointer;
+.skill_lb .play2 .btn2{
+	width: 100%;
+	height: 90%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+.skill_lb .play2 .btn2 .z_play2{
+	position: absolute;
+	font-size: 80px;
+	left: 47%;
+	top: 42%;
+	z-index: 200;
+	color: #fff;
+}
+.skill_lb .play2 video{
+    display: none; 
     width: 100%;
     margin: 0;
     padding: 0;
@@ -359,14 +574,7 @@
     font-family: Century Gothic Std,Arial,sans-serif;
     color: #000;
 }
-.skill_lb .z_play2{
-	position: absolute;
-	font-size: 80px;
-	left: 47%;
-	top: 42%;
-	z-index: 100;
-	color: #fff;
-}
+
 /* ------右边图片部分--------- */
 .skill_rb{
     cursor: pointer;
