@@ -1,0 +1,1133 @@
+@charset "UTF-8";
+
+/* ........................头部............... */
+
+.header {
+    width: 100%madam_text;
+    height: 5rem;
+}
+
+.header .header-content {
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.78125rem;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.header .header-content .header-group {
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header .search {
+    margin-left: 1.5625rem;
+}
+
+.header .search form {
+    position: relative;
+    color: #757575;
+    display: flex;
+}
+
+.header .search form .txt {
+    width: 300px;
+    height: 2.625rem;
+    padding: 0 3.75rem 0 1.5625rem;
+    border: .0625rem solid #757575;
+    border-radius: 3.75rem;
+    box-sizing: border-box;
+    z-index: 2;
+    font-size: .9375rem;
+    background-color: #fff;
+    color: #000;
+    outline: none;
+}
+
+.header .search form .btn1 {
+    outline: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    /*z-index: 2;*/
+    height: 100%;
+    width: 3.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 3.75rem 3.75rem 0;
+    transition: background-color .15s ease-in;
+    border: .0625rem solid #757575;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-left: none;
+}
+
+.header .search form .btn1 .fdj {
+    position: absolute;
+    z-index: 2;
+}
+
+.header-center span {
+    margin-right: 250px;
+    font-size: 46px;
+}
+
+.header-right span {
+    font-size: 1.5rem;
+    margin: 0 .5rem;
+}
+
+.nav {
+    width: 100%;
+    background-color: #fff;
+}
+
+.nav .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 2.875rem;
+    padding: 0 1.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90rem;
+    border-bottom: .0625rem solid #e5e5e5;
+}
+
+.nav .menu li {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-right: .25rem;
+    margin-left: .375rem;
+    height: 100%;
+    padding: .625rem;
+    /*width: 5.125rem;*/
+}
+
+.nav .menu li a {
+    display: block;
+    color: #000;
+    font-size: .8125rem;
+}
+
+.nav .menu li:after {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    content: "";
+    border-bottom: .125rem solid #000;
+    transform: scaleX(0);
+    opacity: 0;
+    transition: all .2s ease-out;
+    transition-property: transform, opacity
+}
+
+.nav .menu li:hover:after {
+    transform: scaleX(1);
+    opacity: 1;
+}
+
+.nav .menu li a:hover {
+    font-weight: 800;
+}
+
+
+/* .................. */
+
+.madam_main {
+    display: block;
+}
+
+.madam_main .madam_pagContent {
+    width: auto;
+    margin: 1.25rem;
+    /*.............. 女士。。。。。。。*/
+    /* ..............时装及配饰..........*/
+    /* <<<<<<<<<<<<<<<   新品    >>>>>>>>>>>>*/
+    /*......... 新品上线..............*/
+}
+
+.madam_main .madam_pagContent .madam_pagContent>* {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.madam_main .madam_pagContent .madam_title {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    font-size: 2rem;
+    line-height: 2.375rem;
+    text-align: center;
+    font-weight: 400;
+    width: 100%;
+}
+
+.madam_main .madam_pagContent .madam_landing {
+    margin-top: 1.25rem;
+    display: flex;
+    width: 100%;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_landing-left {
+    width: 70%;
+    margin-right: 2.5rem;
+    height: 100%;
+    font-size: .9375rem;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_landing-left .madam_play {
+    margin-bottom: .75rem;
+    width: 100%;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    display: block;
+    z-index: 0;
+    position: relative;
+    border: 0;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_landing-left .madam_play .madam_videoplay {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: 0;
+    background-image: url(../images/madam_shipingbeijing.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_landing-left .madam_play .madam_videoplay .madam_btn {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    width: 3.125rem;
+    height: 3.125rem;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    font-size: 6.25rem;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_landing-left .madam_play .madam_video {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    border: 0;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_landing-left .madam_landing_bottom {
+    display: inline-block;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_landing-left .madam_landing_bottom .madam_xainding {
+    margin-bottom: .75rem;
+    font-size: 2rem;
+    color: #000;
+    line-height: 2.375rem;
+    font-weight: 400;
+    width: 100%;
+    text-transform: uppercase;
+    display: block;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_landing-left .madam_landing_bottom .madam_dingou {
+    color: #000;
+    border: .0625rem solid #000;
+    background: #fff;
+    height: 3rem;
+    border-radius: 1.5rem;
+    font-size: .9375rem;
+    padding: 0 2rem;
+    line-height: 3rem;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_landing-left .madam_landing_bottom .madam_dingou .madam_dingou_m {
+    align-items: center;
+    color: #000;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_landing-left .madam_landing_bottom .madam_dingou:hover {
+    font-weight: 700;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_landing-right {
+    width: 30%;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_landing-right .madam_right {
+    display: block;
+    flex-direction: column;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_landing-right .madam_right .madam_img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 108.261%;
+    display: block;
+    overflow: hidden;
+    display: table;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_landing-right .madam_right .madam_img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_landing-right .madam_right .madam_landing_miao {
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: .875rem;
+    margin-left: .3125rem;
+    width: 70%;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_landing-right .madam_right .madam_landing_miao .madan_wenzi {
+    line-height: 1.5rem;
+    font-size: .9375rem;
+    font-weight: 400;
+    word-break: break-all;
+    display: block;
+    color: #000;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_landing-right .madam_right .madam_landing_miao .madan_shuzi {
+    margin-top: .75rem;
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 100%;
+    font-family: Century Gothic Std Bold;
+    color: #000;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_landing-right .madam_xin {
+    position: absolute;
+    top: .9375rem;
+    right: .9735rem;
+    padding: 0;
+    border: 0;
+    z-index: 1;
+    height: 1.25rem;
+    width: 1.25rem;
+    background: transparent;
+    color: black;
+    fill: #000;
+    overflow: hidden;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.madam_main .madam_pagContent .madam_universe {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.madam_main .madam_pagContent .madam_universe .madam_lenve {
+    font-size: 3.25rem;
+    line-height: 3.25rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.madam_main .madam_pagContent .madam_universe .madam_text {
+    margin: 0 auto 2rem;
+    width: 50%;
+    text-align: center;
+    font-size: .9375rem;
+    line-height: 1.5rem;
+    color: #000;
+    display: block;
+}
+
+.madam_main .madam_pagContent .madam_universe .madam_unTuipian.madam_jewelry>:first-child {
+    flex-basis: 48.61111%;
+}
+
+.madam_universe .madam_datutu {
+    flex-basis: 100%;
+    margin-bottom: 2.77778%;
+}
+
+.madam_datutu .madam_xianding {
+    display: block;
+    margin-top: .625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 2rem;
+    line-height: 2.375rem;
+    color: #000;
+    font-weight: 400;
+}
+
+.madam_datutu p {
+    font-size: .9375rem;
+    line-height: 1.125rem;
+    color: #000;
+    font-weight: 400;
+    width: 40%;
+}
+
+.madam_universe .madam_datutu .madam_tu {
+    padding-bottom: 35.1389%;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.madam_universe .madam_datutu .madam_tu img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.madam_main .madam_pagContent .madam_universe .madam_unTuipian {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: -2.777778%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.madam_main .madam_pagContent .madam_universe .madam_unTuipian .madam_unCard {
+    margin-bottom: 2.7778%;
+    flex-basis: 22.91667%;
+    position: relative;
+}
+
+.madam_main .madam_pagContent .madam_universe .madam_unTuipian .madam_unCard .madan_datu {
+    display: block;
+    width: 100%;
+}
+
+.madan_datu .madam_unImg {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 108.16777041942605%;
+}
+
+.madan_datu .madam_unImg img {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.madam_universe .madam_unTuipian .madam_unCard .madan_datu .madam_first {
+    padding-bottom: 50.7143%;
+}
+
+.madam_universe .madam_unTuipian .madam_unCard .madan_datu .madam_datuImg {
+    padding-bottom: 35.138888888888886%;
+}
+
+.madam_main .madam_pagContent .madam_universe .madam_unTuipian .madam_unCard .madan_datu .madam_datuImg img {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.madam_main .madam_pagContent .madam_universe .madam_unTuipian .madam_unCard .madam_xianding {
+    display: block;
+    margin-top: .625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 2rem;
+    line-height: 2.375rem;
+    color: #000;
+    font-weight: 400;
+}
+
+.madam_main .madam_pagContent .madam_products {
+    padding: 0;
+    height: 100%;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.madam_main .madam_pagContent .madam_products .madam_xinppin {
+    font-size: 1.625rem;
+    line-height: 2rem;
+    margin-bottom: 1.25rem;
+    padding-top: 1.25rem;
+    border-top: .0625rem solid #e5e5e5;
+    text-align: center;
+    font-weight: 400;
+    color: #000;
+}
+
+.madam_main .madam_pagContent .madam_products .madam_products_list {
+    display: flex;
+    margin-bottom: 1.25rem;
+}
+
+.madam_main .madam_pagContent .madam_products .madam_products_list .madam_list_tu {
+    flex: 1;
+    margin: 0 .625rem;
+    position: relative;
+}
+
+.madam_main .madam_pagContent .madam_products .madam_products_list .madam_list_tu .madan_list {
+    display: block;
+    width: 100%;
+}
+
+.madam_main .madam_pagContent .madam_products .madam_products_list .madam_list_tu .madan_list .madam_ltImg {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 108.16777041942605%;
+}
+
+.madam_main .madam_pagContent .madam_products .madam_products_list .madam_list_tu .madan_list .madam_ltImg img {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.madam_main .madam_pagContent .madam_products .madam_products_list .madam_list_tu .madan_list .madam_ltMaiosu {
+    width: 70%;
+    margin-top: .875rem;
+    box-sizing: border-box;
+}
+
+.madam_main .madam_pagContent .madam_products .madam_products_list .madam_list_tu .madan_list .madam_ltMaiosu .liwenzi {
+    display: block;
+    line-height: 1.5rem;
+    font-size: .9375rem;
+    width: 100%;
+    text-align: left;
+    color: #000;
+    font-weight: 400;
+}
+
+.madam_main .madam_pagContent .madam_products .madam_products_list .madam_list_tu .madan_list .madam_ltMaiosu .lishuzi {
+    margin-top: .75rem;
+    display: block;
+    color: #000;
+    font-weight: 700;
+}
+
+.madam_main .madam_pagContent .madam_products .madam_products_list .madam_list_tu .madam_liXin {
+    position: absolute;
+    right: .9375rem;
+    top: .9375rem;
+    margin: auto;
+    border: 0;
+    outline: none;
+    background: transparent;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.madam_main .madam_pagContent .madam_landing {
+    padding: 0;
+    display: flex;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_laLeft {
+    width: 70%;
+    margin-right: 2.5rem;
+    display: flex;
+    height: 100%;
+    font-size: .9375rem;
+    flex-direction: column;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_laLeft .madam_laImg {
+    margin-bottom: .75rem;
+    display: table;
+    position: relative;
+    width: 100%;
+    padding-bottom: 51.479915433403804%;
+    overflow: hidden;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_laLeft .madam_laImg img {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_laLeft .madam_xainding {
+    color: #000;
+    display: block;
+    font-size: 2rem;
+    line-height: 2.375rem;
+    margin-bottom: .75rem;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_laLeft .madam_dingou {
+    color: #000;
+    border: .0625rem solid #000;
+    background: #fff;
+    height: 3rem;
+    border-radius: 1.5rem;
+    padding: 0 2rem;
+    line-height: 3rem;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_laLeft .madam_dingou:hover {
+    font-weight: 700;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_laRght {
+    width: 30%;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_laRght .swiper-slide {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_laRght .swiper-slide .madam_ltMaiosu {
+    width: 70%;
+    margin-top: .875rem;
+    box-sizing: border-box;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_laRght .swiper-slide .madam_ltMaiosu .liwenzi {
+    display: block;
+    line-height: 1.5rem;
+    font-size: .9375rem;
+    width: 100%;
+    text-align: left;
+    color: #000;
+    font-weight: 400;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_laRght .swiper-slide .madam_ltMaiosu .lishuzi {
+    margin-top: .75rem;
+    display: block;
+    color: #000;
+    font-weight: 700;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_laRght .madam_xin {
+    position: absolute;
+    top: .9375rem;
+    right: .9735rem;
+    padding: 0;
+    border: 0;
+    z-index: 1;
+    height: 1.25rem;
+    width: 1.25rem;
+    background: transparent;
+    color: black;
+    fill: #000;
+    overflow: hidden;
+    outline: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.madam_main .madam_pagContent .madam_landing .madam_laRght .swiper-button-black {
+    font-size: 1.25rem;
+}
+
+.mdam_scroTOP {
+    border-radius: 50%;
+    background-color: #fff;
+    border: .0625rem solid #757575;
+    z-index: 99;
+    position: fixed;
+    bottom: .3125rem;
+    right: .75rem;
+    width: 3.4375rem !important;
+    height: 3.4375rem !important;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.mdam_scroTOP .madam_btnTOP {
+    color: #000;
+    font-size: 2.375rem;
+    outline: none;
+}
+
+.madam_both {
+    display: flex;
+    text-align: right;
+}
+
+.madam_both .madam_Img1 {
+    position: fixed;
+    bottom: 170px;
+    right: 7px;
+    z-index: 999999;
+}
+
+.madam_both .madam_Img2 {
+    position: fixed;
+    bottom: 90px;
+    right: 7px;
+    z-index: 999999;
+}
+
+
+/* ........................尾部.................. */
+
+
+/* .....................精品店..................... -- */
+
+.store {
+    position: relative;
+    text-align: center;
+}
+
+.store .image {
+    display: table;
+    position: relative;
+    width: 100%;
+    padding-bottom: 23.6979%;
+    overflow: hidden;
+}
+
+.store .image img {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.store-text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 1.25rem;
+    right: 1.25rem;
+    bottom: 0;
+    top: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.store-text h2 {
+    display: block;
+    font-weight: 400;
+    margin: 0;
+    width: 100%;
+    color: #000;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.store-form {
+    display: flex;
+    position: relative;
+}
+
+.store-form form {
+    color: #757575;
+    display: flex;
+    position: relative;
+}
+
+.store-form input {
+    display: inline-flex;
+    width: 20.3125rem;
+    height: 3.75rem;
+    border-radius: 3.75rem;
+    padding: .5rem 4.6875rem .5rem 1.5625rem;
+    box-sizing: border-box;
+    border: .0625rem solid #000;
+    background-color: #fff;
+    font-size: .9375rem;
+    color: #757575;
+    outline: none;
+}
+
+.store-form .btn2 {
+    position: absolute;
+    right: -.0625rem;
+    height: 3.75rem;
+    width: 4.375rem;
+    border-radius: 0 3.75rem 3.75rem 0;
+    background-color: #000;
+    border: .0625rem solid #000;
+    border-left: none;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.store-form .btn2 .fdj {
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    z-index: 2;
+    color: #fff;
+    font-size: 2rem;
+}
+
+
+/* .................特殊礼遇...................... */
+
+.advantage {
+    font-size: .9375rem;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.advantage-list {
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 1.5625rem;
+}
+
+.advantage-list h2 {
+    margin: 1.875rem 0 2.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+.advantage-list .lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*margin: 1.5625rem;*/
+}
+
+.advantage-list .lists .one {
+    box-sizing: border-box;
+    padding: 0 1.5625rem;
+    width: 16.625rem;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+}
+
+.ico {
+    font-size: 2.25rem;
+    margin: .75rem 0 .5rem;
+}
+
+.small {
+    margin-bottom: .5rem;
+    font-size: .9375rem;
+    line-height: 1.25rem;
+}
+
+.big {
+    margin: .5rem 0;
+    line-height: 1.6;
+}
+
+.last {
+    display: flex;
+}
+
+.last-img {
+    align-self: center;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 1.5625rem;
+    width: 16.625rem;
+}
+
+.last-img div {
+    display: table;
+    position: relative;
+    width: 100%;
+    padding-bottom: 70%;
+    overflow: hidden;
+}
+
+.last-img div img {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+
+/* ...................最下面................. */
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    max-width: 90rem;
+    padding: 1.875rem;
+    margin: 0 auto;
+}
+
+.footer-common {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-left {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 20.3125rem;
+    min-width: 12.5rem;
+}
+
+.footer-left .title {
+    font-size: .9375rem;
+    line-height: 1.25rem;
+    text-align: center;
+    margin: 0 0 .9375rem;
+}
+
+.footer-left .content {
+    display: inline-flex;
+    width: 100%;
+    border: .0625rem solid #000;
+    border-radius: 3.75rem;
+}
+
+.text {
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 3.125rem;
+}
+
+.footer-left .input {
+    height: 100%;
+    border: none;
+    overflow: hidden;
+    border-radius: 3.75rem 0 0 3.75rem;
+    display: inline-flex;
+    align-items: center;
+    padding: .5rem 1.25rem;
+    box-sizing: border-box;
+    margin-top: .2rem;
+}
+
+.footer-left .input input {
+    padding: .9375rem;
+    font-size: .9375rem;
+    margin: 0;
+    color: #000;
+    border: none;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer-left button {
+    height: 3.125rem;
+    min-width: 4.375rem;
+    font-size: .9375rem;
+    flex-shrink: 0;
+    border-radius: 0 3.75rem 3.75rem 0;
+    padding: 0 1.25rem;
+    border: none;
+    color: #fff;
+    background-color: #000;
+    outline: none;
+}
+
+.link-list {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: .9375rem;
+    line-height: 2.67;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.link-list li a {
+    color: #000;
+    cursor: pointer;
+}
+
+.link-list li a:hover {
+    font-weight: bold;
+}
+
+.notice-list {
+    display: flex;
+    flex-direction: column;
+    padding: .9375rem;
+    font-size: .75rem;
+    text-align: center;
+    color: #757575;
+}
+
+.notice {
+    display: flex;
+    align-items: center;
+}
+
+.notice img {
+    margin-right: .1875rem;
+}
+
+.notice a {
+    color: #757575;
+    text-decoration: none;
+}
+
+.notice a:hover {
+    font-weight: bold;
+}
+
+.left {
+    text-align: left;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.about-top {
+    border-bottom: .125rem solid #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 1.25rem 0;
+}
+
+.about-top .me {
+    font-size: .9375rem;
+    line-height: 1.25rem;
+    margin: 0 0 .9375rem;
+}
+
+.about-top a {
+    text-decoration: none;
+}
+
+.xl {
+    color: #000;
+    font-size: 3.25rem;
+}
+
+.about-bottom {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    max-width: 20.3125rem;
+    padding: 1.25rem 0;
+}
+
+.about-bottom .city {
+    font-size: .9375rem;
+    line-height: 1.25rem;
+    text-align: center;
+    margin: 0 0 .9375rem;
+}
+
+.area {
+    display: flex;
+    height: 3.125rem;
+    width: 100%;
+}
+
+.area button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    position: relative;
+    z-index: 3;
+    background-color: #fff;
+}
+
+.area-big {
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.25rem;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: .0625rem solid #000;
+    border-radius: 3.75rem;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.area-mid {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 2.75rem;
+    min-height: 2.8125rem;
+    font-size: .9375rem;
+    padding: 0 1.25rem;
+}
+
+.mid {
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.china {
+    text-decoration: none;
+    width: 100%;
+    padding: .5rem 0;
+}
+
+.jt {
+    display: inline-flex;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding-top: .3125rem;
+    color: #000;
+}

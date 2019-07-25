@@ -1,0 +1,473 @@
+.madam_main {
+    display: block;
+    .madam_pagContent {
+        width: auto;
+        margin: 1.25rem;
+        .madam_pagContent>* {
+            margin-top: 2.5rem;
+            margin-bottom: 2.5rem;
+        }
+        /*.............. 女士。。。。。。。*/
+        .madam_title {
+            margin-top: 1.25rem;
+            margin-bottom: 1.25rem;
+            font-size: 2rem;
+            line-height: 2.375rem;
+            text-align: center;
+            font-weight: 400;
+            width: 100%;
+        }
+        .madam_landing {
+            margin-top: 1.25rem;
+            display: flex;
+            width: 100%;
+            .madam_landing-left {
+                width: 70%;
+                margin-right: 2.5rem;
+                // display: flex;
+                height: 100%;
+                font-size: .9375rem;
+                // background: #ccc;
+                .madam_play {
+                    margin-bottom: .75rem;
+                    width: 100%;
+                    padding-bottom: 56.25%;
+                    overflow: hidden;
+                    display: block;
+                    z-index: 0;
+                    position: relative;
+                    border: 0;
+                    .madam_videoplay {
+                        margin: 0;
+                        padding: 0;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        display: flex;
+                        width: 100%;
+                        height: 100%;
+                        z-index: 1;
+                        justify-content: center;
+                        align-items: center;
+                        outline: none;
+                        border: 0;
+                        background-image: url(../images/madam_shipingbeijing.webp);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        .madam_btn {
+                            color: #fff;
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            z-index: 2;
+                            width: 3.125rem;
+                            height: 3.125rem;
+                            align-items: center;
+                            transform: translate(-50%, -50%);
+                            font-size: 6.25rem;
+                        }
+                    }
+                    .madam_video {
+                        width: 100%;
+                        height: 100%;
+                        display: block;
+                        position: absolute;
+                        border: 0;
+                    }
+                }
+                .madam_landing_bottom {
+                    display: inline-block;
+                    .madam_xainding {
+                        margin-bottom: .75rem;
+                        font-size: 2rem;
+                        color: #000;
+                        line-height: 2.375rem;
+                        font-weight: 400;
+                        width: 100%;
+                        text-transform: uppercase;
+                        display: block;
+                    }
+                    .madam_dingou {
+                        color: #000;
+                        border: .0625rem solid #000;
+                        background: #fff;
+                        height: 3rem;
+                        border-radius: 1.5rem;
+                        font-size: .9375rem;
+                        padding: 0 2rem;
+                        line-height: 3rem;
+                        display: inline-block;
+                        justify-content: center;
+                        text-align: center;
+                        .madam_dingou_m {
+                            align-items: center;
+                            color: #000;
+                        }
+                    }
+                    .madam_dingou:hover {
+                        font-weight: 700;
+                    }
+                }
+            }
+            .madam_landing-right {
+                width: 30%;
+                display: block;
+                overflow: hidden;
+                position: relative;
+                .madam_right {
+                    display: block;
+                    flex-direction: column;
+                    .madam_img {
+                        position: relative;
+                        height: 100%;
+                        width: 100%;
+                        padding-bottom: 108.261%;
+                        display: block;
+                        overflow: hidden;
+                        display: table;
+                        img {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                        }
+                    }
+                    .madam_landing_miao {
+                        flex-direction: column;
+                        box-sizing: border-box;
+                        margin-top: .875rem;
+                        margin-left: .3125rem;
+                        width: 70%;
+                        .madan_wenzi {
+                            line-height: 1.5rem;
+                            font-size: .9375rem;
+                            font-weight: 400;
+                            word-break: break-all;
+                            display: block;
+                            color: #000;
+                        }
+                        .madan_shuzi {
+                            margin-top: .75rem;
+                            display: inline-block;
+                            flex-wrap: wrap;
+                            width: 100%;
+                            font-family: Century Gothic Std Bold;
+                            color: #000;
+                        }
+                    }
+                }
+                .madam_xin {
+                    position: absolute;
+                    top: .9375rem;
+                    right: .9735rem;
+                    padding: 0;
+                    border: 0;
+                    z-index: 1;
+                    height: 1.25rem;
+                    width: 1.25rem;
+                    background: transparent;
+                    color: black;
+                    fill: #000;
+                    overflow: hidden;
+                    outline: none;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+        /* ..............时装及配饰..........*/
+        .madam_universe {
+            width: 100%;
+            box-sizing: border-box;
+            margin-top: 2.5rem;
+            margin-bottom: 2.5rem;
+            .madam_lenve {
+                font-size: 3.25rem;
+                line-height: 3.25rem;
+                text-align: center;
+                font-weight: 400;
+            }
+            .madam_text {
+                margin: 0 auto 2rem;
+                width: 50%;
+                text-align: center;
+                font-size: .9375rem;
+                line-height: 1.5rem;
+                color: #000;
+                display: block;
+            }
+            .madam_unTuipian>:nth-child(2):nth-last-child(3) {
+                flex-basis: 48.61111%;
+                .madam_unCard {
+                    .madan_datu {
+                        .madam_unImg {
+                            padding-bottom: 50.7143%;
+                        }
+                    }
+                }
+            }
+            // .madam_unTuipian>* {
+            //     margin-bottom: 2.7778%;
+            //     flex-basis: 22.91667%;
+            // }
+            .madam_unTuipian {
+                width: 100%;
+                margin-top: 2rem;
+                margin-bottom: -2.777778%;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: flex-start;
+                justify-content: space-between;
+                .madam_unCard {
+                    margin-bottom: 2.7778%;
+                    flex-basis: 22.91667%;
+                    position: relative;
+                    .madan_datu {
+                        display: block;
+                        width: 100%;
+                        .madam_unImg {
+                            position: relative;
+                            width: 100%;
+                            overflow: hidden;
+                            padding-bottom: 108.16777041942605%;
+                            img {
+                                position: absolute;
+                                width: 100%;
+                                top: 0;
+                                left: 0;
+                            }
+                        }
+                        .madam_datuImg {
+                            padding-bottom: 35.138888888888886%;
+                            img {
+                                position: absolute;
+                                width: 100%;
+                                top: 0;
+                                left: 0;
+                            }
+                        }
+                    }
+                    .madam_xianding {
+                        display: block;
+                        margin-top: .625rem;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-end;
+                        font-size: 2rem;
+                        line-height: 2.375rem;
+                        color: #000;
+                        font-weight: 400;
+                    }
+                }
+            }
+            .madam_unTuipian>:first-child {
+                flex-basis: 100%;
+            }
+        }
+        /* <<<<<<<<<<<<<<<   新品    >>>>>>>>>>>>*/
+        .madam_products {
+            padding: 0;
+            height: 100%;
+            margin-top: 2.5rem;
+            margin-bottom: 2.5rem;
+            .madam_xinppin {
+                font-size: 1.625rem;
+                line-height: 2rem;
+                margin-bottom: 1.25rem;
+                padding-top: 1.25rem;
+                border-top: .0625rem solid #e5e5e5;
+                text-align: center;
+                font-weight: 400;
+                color: #000;
+            }
+            .madam_products_list {
+                display: flex;
+                margin-bottom: 1.25rem;
+                .madam_list_tu {
+                    flex: 1;
+                    margin: 0 .625rem;
+                    position: relative;
+                    .madan_list {
+                        display: block;
+                        width: 100%;
+                        .madam_ltImg {
+                            position: relative;
+                            width: 100%;
+                            overflow: hidden;
+                            padding-bottom: 108.16777041942605%;
+                            img {
+                                position: absolute;
+                                width: 100%;
+                                top: 0;
+                                left: 0;
+                            }
+                        }
+                        .madam_ltMaiosu {
+                            width: 70%;
+                            margin-top: .875rem;
+                            box-sizing: border-box;
+                            .liwenzi {
+                                display: block;
+                                line-height: 1.5rem;
+                                font-size: .9375rem;
+                                width: 100%;
+                                text-align: left;
+                                color: #000;
+                                font-weight: 400;
+                            }
+                            .lishuzi {
+                                margin-top: .75rem;
+                                display: block;
+                                color: #000;
+                                font-weight: 700;
+                            }
+                        }
+                    }
+                    .madam_liXin {
+                        position: absolute;
+                        right: .9375rem;
+                        top: .9375rem;
+                        margin: auto;
+                        border: 0;
+                        outline: none;
+                        background: transparent;
+                        font-size: 1.2rem;
+                        cursor: pointer
+                    }
+                }
+            }
+        }
+        /*......... 新品上线..............*/
+        .madam_landing {
+            padding: 0;
+            display: flex;
+            .madam_laLeft {
+                width: 70%;
+                margin-right: 2.5rem;
+                display: flex;
+                height: 100%;
+                font-size: .9375rem;
+                flex-direction: column;
+                .madam_laImg {
+                    margin-bottom: .75rem;
+                    display: table;
+                    position: relative;
+                    width: 100%;
+                    padding-bottom: 51.479915433403804%;
+                    overflow: hidden;
+                    img {
+                        position: absolute;
+                        width: 100%;
+                        top: 0;
+                        left: 0;
+                    }
+                }
+                .madam_xainding {
+                    color: #000;
+                    display: block;
+                    font-size: 2rem;
+                    line-height: 2.375rem;
+                    margin-bottom: .75rem;
+                }
+                .madam_dingou {
+                    color: #000;
+                    border: .0625rem solid #000;
+                    background: #fff;
+                    height: 3rem;
+                    border-radius: 1.5rem;
+                    padding: 0 2rem;
+                    line-height: 3rem;
+                    display: inline-block;
+                    justify-content: center;
+                    text-align: center;
+                }
+                .madam_dingou:hover {
+                    font-weight: 700;
+                }
+            }
+            .madam_laRght {
+                width: 30%;
+                .swiper-slide {
+                    position: relative;
+                    box-sizing: border-box;
+                    .madam_ltMaiosu {
+                        width: 70%;
+                        margin-top: .875rem;
+                        box-sizing: border-box;
+                        .liwenzi {
+                            display: block;
+                            line-height: 1.5rem;
+                            font-size: .9375rem;
+                            width: 100%;
+                            text-align: left;
+                            color: #000;
+                            font-weight: 400;
+                        }
+                        .lishuzi {
+                            margin-top: .75rem;
+                            display: block;
+                            color: #000;
+                            font-weight: 700;
+                        }
+                    }
+                }
+                .madam_xin {
+                    position: absolute;
+                    top: .9375rem;
+                    right: .9735rem;
+                    padding: 0;
+                    border: 0;
+                    z-index: 1;
+                    height: 1.25rem;
+                    width: 1.25rem;
+                    background: transparent;
+                    color: black;
+                    fill: #000;
+                    overflow: hidden;
+                    outline: none;
+                    font-size: 1.2rem;
+                    cursor: pointer
+                }
+                .swiper-button-black {
+                    font-size: 1.25rem;
+                }
+            }
+        }
+    }
+}
+
+.mdam_scroTOP {
+    border-radius: 50%;
+    background-color: #fff;
+    border: .0625rem solid #757575;
+    z-index: 99;
+    position: fixed;
+    bottom: .3125rem;
+    right: .75rem;
+    width: 3.4375rem !important;
+    height: 3.4375rem !important;
+    box-sizing: border-box;
+    outline: none;
+    .madam_btnTOP {
+        color: #000;
+        font-size: 2.375rem;
+        outline: none;
+    }
+}
+
+.madam_both {
+    display: flex;
+    text-align: right;
+    .madam_Img1 {
+        position: fixed;
+        bottom: 170px;
+        right: 7px;
+        z-index: 999999;
+    }
+    .madam_Img2 {
+        position: fixed;
+        bottom: 90px;
+        right: 7px;
+        z-index: 999999;
+    }
+}
