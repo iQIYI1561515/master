@@ -1,0 +1,624 @@
+/* <!-- 持妆 锁水 爱上两全其美 --> */
+.z_contont1{
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+}
+.z_contont1 img{
+    width: 100%;
+}
+.z_contont1 h1{
+    text-align: center;
+    line-height: 94px;
+    font-weight: 400;
+    font-family: Century Gothic Std,Arial,sans-serif;
+}
+.z_contont1 .zz_h1{
+    line-height: 130px;
+}
+.z_contont1 h3{
+    text-align: center;
+    font-weight: 100;
+    line-height: 26px;
+    font-family: Century Gothic Std,Arial,sans-serif;  
+}
+/* <!-- 迪奥锁妆粉底液(1) 哑光妆效 --> */
+
+.z_contont2{
+    width: 95%;    
+    overflow: hidden;
+    margin: 0 auto; 
+}
+.z_contont2 h1{
+    margin:30px auto;
+    line-height: 30px; 
+    font-weight: 400;
+    font-family: Century Gothic Std,Arial,sans-serif; 
+    text-align: center;
+} 
+.z_contont2 .slick_list{
+    width: 78%;
+    overflow: visible;
+}
+/* <!-- 迪奥锁妆粉底液(1) 哑光妆效 图片 --> */
+
+.z_contont2 ul{
+    width: 200%;
+    /*margin-left: -1120px;*/
+}
+.z_contont2 ul li{
+    margin: 0 1%;
+    width: 23%;
+    float: left;
+}
+.z_contont2 ul li img{
+    width: 100%;
+}
+.z_contont2 .z_turn1{
+	padding-top: 36px;
+	width: 142px;
+    text-align: center;
+    /*height: 40px;*/
+    margin: 0 auto;
+}
+.z_contont2 .z_turn1 .prev1{
+	display: inline-block;
+	float: left;
+	border: 1px solid #888888;
+	width: 32px;
+	height: 32px;
+	border-radius:16px;
+	margin-right: 20px;	
+	cursor: pointer;
+}
+.z_contont2 .z_turn1 .prev1:hover{
+	border: 1px solid #333;
+}
+.z_contont2 .z_turn1 .prev1 .prev1_a{	
+	color: #333;
+	font-size: 28px;
+	line-height: 31px;	
+}
+.z_contont2 .z_turn1 .dot{
+	float: left;
+}
+.z_contont2 .z_turn1 .dot .dot1_1{
+	float: left;
+	cursor: pointer;	
+	float: left;
+	color: #888;	
+	line-height: 32px;	
+	font-size: 20px;
+	color: #000000;	
+}
+.z_contont2 .z_turn1 .dot .dot1_2{
+	float: left;
+	cursor: pointer;	
+	float: left;
+	color: #888;	
+	line-height: 32px;	
+	font-size: 12px;
+	color: #888888;	
+}
+.z_contont2 .z_turn1 .next1{
+	cursor: pointer;	
+	display: inline-block;
+	float: left;
+	border: 1px solid #888888;
+	width: 32px;
+	margin-top:30px
+	height: 32px;
+	border-radius:16px ;
+	margin-left: 20px;
+}
+.z_contont2 .z_turn1 .next1:hover{
+	border: 1px solid #333;
+}
+.z_contont2 .z_turn1 .next1 .next1_a{
+	color: #333;
+	font-size: 28px;
+	line-height: 31px;		
+}
+.z_contont2 > p{
+    text-align: center;
+    font-family: Century Gothic Std,Arial,sans-serif; 
+    font-size: 16px;
+    line-height: 28px;
+}
+.z_contont2 > span a{
+    display: block;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 162px;
+    height: 48px;
+    background: #000;
+    border: 1px solid #000;
+    margin: 40px auto ;
+    font-size: 18px;
+    font-family: Century Gothic Std,Arial,sans-serif;
+    border-radius: 24px;
+    line-height: 48px;
+}
+.z_contont2 > span a:hover{
+    font-weight: bold;
+}
+/* <!-- 迪奥锁妆粉底液(1) 亮泽妆效 --> */
+.z_contont3{
+    width: 95%;    
+    overflow: hidden;
+    margin: 0 auto; 
+}
+.z_contont3 h1{
+    margin:30px auto;
+    line-height: 30px; 
+    font-weight: 400;
+    font-family: Century Gothic Std,Arial,sans-serif; 
+    text-align: center;
+} 
+.z_contont3 .slick_list2{
+    width: 78%;
+    overflow: visible;
+}
+/* <!-- 迪奥锁妆粉底液(1) 亮泽妆效 图片 --> */
+
+.z_contont3 .slick_list2 ul{
+	/*overflow: hidden;*/
+    width: 200%;
+}
+.z_contont3 .slick_list2 ul li{
+    margin: 0 1%;
+    width: 23%;
+    float: left;
+}
+.z_contont3 .slick_list2 ul li img{
+    width: 100%;
+}
+.z_contont3 .z_turn2{
+	padding-top: 36px;
+	width: 142px;
+    text-align: center;
+    /*height: 40px;*/
+    margin: 0 auto;
+}
+.z_contont3 .z_turn2 .prev2{
+	display: inline-block;
+	float: left;
+	border: 1px solid #888888;
+	width: 32px;
+	height: 32px;
+	border-radius:16px;
+	margin-right: 20px;	
+	cursor: pointer;
+}
+.z_contont3 .z_turn2 .prev2:hover{
+	border: 1px solid #333;
+}
+.z_contont3 .z_turn2 .prev2 .prev2_a{	
+	color: #333;
+	font-size: 28px;
+	line-height: 31px;	
+}
+.z_contont3 .z_turn2 .dot_2{
+	float: left;
+}
+.z_contont3 .z_turn2 .dot_2 .dot2_1{
+	float: left;
+	cursor: pointer;	
+	float: left;
+	color: #888;	
+	line-height: 32px;	
+	font-size: 20px;
+	color: #000000;	
+}
+.z_contont3 .z_turn2 .dot_2 .dot2_2{
+	float: left;
+	cursor: pointer;	
+	float: left;
+	color: #888;	
+	line-height: 32px;	
+	font-size: 12px;
+	color: #888888;	
+}
+.z_contont3 .z_turn2 .next2{
+	cursor: pointer;	
+	display: inline-block;
+	float: left;
+	border: 1px solid #888888;
+	width: 32px;
+	margin-top:30px
+	height: 32px;
+	border-radius:16px ;
+	margin-left: 20px;
+}
+.z_contont3 .z_turn2 .next2:hover{
+	border: 1px solid #333;
+}
+.z_contont3 .z_turn2 .next2 .next2_a{
+	color: #333;
+	font-size: 28px;
+	line-height: 31px;		
+}
+.z_contont3 > p{
+    text-align: center;
+    font-family: Century Gothic Std,Arial,sans-serif; 
+    font-size: 16px;
+    line-height: 28px;
+}
+.z_contont3 > span a{
+    display: block;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 162px;
+    height: 48px;
+    background: #000;
+    border: 1px solid #000;
+    margin: 40px auto ;
+    font-size: 18px;
+    font-family: Century Gothic Std,Arial,sans-serif;
+    border-radius: 24px;
+    line-height: 48px;
+}
+.z_contont3 > span a:hover{
+    font-weight: bold;
+}
+/* 锁水护肤----------- */
+.z_contont4{
+    width: 95%;
+    margin: 30px auto;
+    padding: 0;
+}
+.z_contont4 img{
+	width: 100%;
+}
+/* -------哑光妆效OR亮泽妆效？---------- */
+.z_contont5{
+    width: 95%;
+    margin: 30px auto;
+    margin-top: 130px;
+    padding: 0;
+}
+.z_contont5 h2{
+    text-align: center;
+    font-size: 26px;
+    font-family: Century Gothic Std,Arial,sans-serif; 
+    font-weight: 400;
+}
+.z_contont5>p{
+    font-family: Century Gothic Std,Arial,sans-serif; 
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+}
+.z_contont5 .co_select{
+    text-align: center;
+}
+.z_contont5 .co_select .btn3{
+    /* height: 70px; */
+   cursor: pointer;
+    font-family: Century Gothic Std,Arial,sans-serif; 
+    display: inline-block;    
+    line-height: 40px;
+    padding: 0 20px;
+    font-size: 16px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    color: #000;
+}
+.z_contont5 .co_select .btn4{
+    /* height: 70px; */
+   cursor: pointer;
+    font-family: Century Gothic Std,Arial,sans-serif; 
+    display: inline-block;    
+    line-height: 40px;
+    padding: 0 20px;
+    font-size: 16px;
+    border: 2px solid #757575;
+    border-radius: 20px;
+    color: #757575;
+}
+.z_contont5 .zz_compare1{
+    width: 800px;
+    padding: 40px;
+    /* height: 654px; */
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    position: relative;
+}
+.z_contont5 .zz_compare1 .zz_cImg{
+    position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+/*-------白皙肤色--------------*/
+.z_contont5 .zz_compare1 .zz_cImg .zz_cImg1{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.zz_cImg .moveline1{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	height: 100%;
+	width: 1px;
+	background: #fff;
+	z-index: 100;
+}
+.zz_cImg1L{
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+}
+.zz_cImg1 .z_img4{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -100;
+}
+
+/*--健康偏浅肤色-----*/
+.z_contont5 .zz_compare1 .zz_cImg .zz_cImg2{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	display: none;	
+}
+
+.zz_cImg2L{
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+}
+.zz_cImg2 .z_img6{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -100;
+}
+/*-----文字部分--------------*/
+.z_contont5 .zz_compare1 strong{
+    font-size: 24px;
+    font-family: Century Gothic Std,Arial,sans-serif; 
+}
+.z_contont5 .zz_compare1 .zz_tit1{
+    position: absolute;
+    left: 120px;
+    top:424px;
+}
+.z_contont5 .zz_compare1 .zz_tit2{
+    position: absolute;
+    left: 660px;
+    top:424px;
+}
+.z_contont5 .zz_compare1 ul{
+    width: 100%;
+}
+.z_contont5 .zz_compare1 ul li{
+    float: left;
+    width: 50%;
+    text-align: start;
+}
+.z_contont5 .zz_compare1 ul li p{
+    font-family: Century Gothic Std,Arial,sans-serif; 
+    line-height: 56px;
+    font-size: 16px;
+}
+.z_contont5 .zz_compare1 ul li>a{
+    color: #000;
+    font-family: Century Gothic Std,Arial,sans-serif; 
+    font-size: 14px;
+    /* text-decoration:underline; */
+    bordeR-bottom:2px solid #000;/*设置a便签下划线的粗细*/
+}
+/* 彼得·菲利普(PETER PHILIPS)的上妆技巧 */
+.z_contont6{
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom:10px; 
+}
+.z_contont6 h1{
+    text-align: center;    
+    line-height: 60px;
+    font-weight: 400;
+    font-family: Century Gothic Std,Arial,sans-serif;
+}
+/* 如何打造持久哑光妆容？*/
+.peter1{
+    width: 100%;
+    margin: 0 auto;  
+
+}
+/* ----视频-------- */
+ .skill_l{
+    width: 66%;
+    float: left;
+}
+.skill_l .play1{
+    cursor: pointer;	
+	width: 100%;
+	position:relative ;
+}
+.skill_l .play1 .skill_img1{
+    width: 100%;
+}
+.skill_l .play1 .skill_img1 img{
+    /*display: none;*/
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.skill_l .play1 .btn1{
+	width: 100%;
+	height: 90%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+.skill_l .play1 .btn1 .z_play1{
+	position: absolute;
+	font-size: 80px;
+	left: 47%;
+	top: 42%;
+	z-index: 200;
+	color: #fff;	
+}
+.skill_l .play1 video{
+    display: none; 
+    cursor: pointer;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.sk_p1{
+    font-size:14px ;
+    line-height:34px ;
+    font-family: Century Gothic Std,Arial,sans-serif;
+    color: #000;
+}
+
+/* ------右边图片部分--------- */
+.skill_r{
+    cursor: pointer;
+    float: right;
+    width: 31%;
+}
+
+.skill_r .skill_img2{
+    width: 100%;
+}
+.skill_r .skill_img2 img{
+    width: 100%;
+}
+.skill_r a{
+    display: block;
+    color: #000;
+}
+.skill_r a p{
+    color: #000;
+    font-family: Century Gothic Std Bold;
+    font-size: 16px;
+    line-height: 25px;「」
+}
+.skill_r a p:nth-of-type(1){
+    margin-top: 10px;
+    color: #757575;
+}
+.skill_r a p:nth-of-type(4)>span{
+    color: #ccc;
+}
+.skill_r a p:nth-of-type(4)>span:nth-last-child(4){
+    color: #000;
+}
+.skill_r a h3{
+    font-family: Century Gothic Std Bold;
+    margin-top: 10px;
+}
+/* ----------------如何打造元气妆容？------------- */
+
+.peter2{
+    width: 100%;
+    margin: 0 auto; 
+    margin-top:30px;  
+
+}
+/* ----视频-------- */
+ .skill_lb{
+    cursor: pointer;
+    width: 66%;
+    float: left;
+}
+.skill_lb .play2{
+	width: 100%;
+    cursor: pointer;	
+	position: relative;
+}
+.skill_lb .play2 .skill_img3{
+    width: 100%;
+}
+.skill_lb .play2 .skill_img3 img{
+    /*display: none;*/
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.skill_lb .play2 .btn2{
+	width: 100%;
+	height: 90%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+.skill_lb .play2 .btn2 .z_play2{
+	position: absolute;
+	font-size: 80px;
+	left: 47%;
+	top: 42%;
+	z-index: 200;
+	color: #fff;
+}
+.skill_lb .play2 video{
+    display: none; 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.sk_p2{
+    font-size:14px ;
+    line-height:34px ;
+    font-family: Century Gothic Std,Arial,sans-serif;
+    color: #000;
+}
+
+/* ------右边图片部分--------- */
+.skill_rb{
+    cursor: pointer;
+    float: right;
+    width: 31%;
+}
+
+.skill_rb .skill_img4{
+    width: 100%;
+}
+.skill_rb .skill_img4 img{
+    width: 100%;
+}
+.skill_rb a{
+    display: block;
+    color: #000;
+}
+.skill_rb a p{
+    color: #000;
+    font-family: Century Gothic Std Bold;
+    font-size: 16px;
+    line-height: 25px;「」
+}
+.skill_rb a p:nth-of-type(1){
+    margin-top: 10px;
+    color: #757575;
+}
+.skill_rb a p:nth-of-type(4)>span{
+    color: #ccc;
+}
+.skill_rb a p:nth-of-type(4)>span:nth-last-child(4){
+    color: #000;
+}
+.skill_rb a h3{
+    font-family: Century Gothic Std Bold;
+    margin-top: 10px;
+}
+.state{
+    width: 100%;
+    margin: 0 auto;
+}
+.state p{
+    line-height: 56px;
+    font-size: 16px;
+    font-family: Century Gothic Std Bold;
+
+}

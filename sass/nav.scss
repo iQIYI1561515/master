@@ -1,0 +1,81 @@
+.nav {
+  // flex: 1;
+  overflow: hidden;
+  border-top: .0625rem solid #e5e5e5;
+  width: 100%;
+
+  .swiper-container {
+    margin: 1.0625rem;
+    // justify-content: center;
+
+    img {
+      width: 100%;
+      margin-bottom: .2rem;
+      cursor: pointer;
+    }
+
+    .swiper-button-prev {
+      left: 2.35rem;
+      top: 16.5rem;
+      outline: none;
+      background-size: .875rem 1.25rem;
+    }
+
+    .swiper-button-next {
+      right: 2.35rem;
+      top: 16.5rem;
+      outline: none;
+      background-size: .875rem 1.25rem;
+    }
+  }
+
+  a {
+    display: block;
+  }
+
+  p {
+    margin: 0.8125rem;
+    color: #757575;
+    font-family: 'Century Gothic Std', Arial, sans-serif;
+
+    a {
+      font-size: 1.625rem;
+      line-height: 2rem;
+      color: black;
+    }
+  }
+
+  .aButton {
+    margin: 0 0 1.25rem .8rem;
+    width: 14.2625rem;
+    height: 2.9rem;
+    line-height: 2.9rem;
+    border-radius: 2rem;
+    font-size: .9375rem;
+    text-align: center;
+    cursor: pointer;
+    background-color: black;
+
+    .suo {
+      font-size: 1.2rem;
+    }
+
+    span {
+      color: white;
+    }
+
+  }
+
+  .swiper-pagination {
+    span {
+      position: relative;
+      top: -7.5rem;
+      right: 3rem;
+      float: right;
+      width: .4625rem;
+      height: .4625rem;
+      background-color: black;
+    }
+  }
+
+}

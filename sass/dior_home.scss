@@ -1,0 +1,29 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  width: 100%;
+  font-family: 'Century Gothic Std', Arial, sans-serif;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.wrap{
+ 
+  background-color: white;
+}
+
+@import "header";
+@import "homeNav";
+@import "nav";
+@import "hot";
+@import "products";
+@import "service";
+@import "service-guild";

@@ -72,7 +72,7 @@ $(".mdam_scroTOP").click(function() {
 })
 $(function() {
     $.ajax({
-        url: '../data/madam.json',
+        url: '../data/male.json',
         type: 'get',
         dataType: 'json',
         success: function(json) {
@@ -100,5 +100,16 @@ $(function() {
             $('.madam_top').html(newon1);
             $('.madam_bottom').html(newon2);
         }
+    })
+})
+$(function() {
+    $(".header_nav").on('mouseenter', 'a', function() {
+        $('.subnav').css('display', 'block');
+        $(document).bind('mousemove', function(e) {
+            var y = e.pageY;
+            if (y < 90 || y > 645) {
+                $('.subnav').css('display', 'none');
+            }
+        })
     })
 })

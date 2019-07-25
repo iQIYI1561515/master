@@ -1,0 +1,233 @@
+.l-head{
+	border-bottom: .0625rem solid #e5e5e5;
+	padding-bottom: 30px;
+}
+.l-header{
+	margin: 0 auto;
+	max-width: 920px;
+    padding: 50px 0 0;
+    width: 100%;
+}
+.l-header .back{
+	float: left;
+	margin-top: .2rem;
+}
+.l-logo{
+    display: inline-block;
+    margin:  0 auto;
+    width: 120px;
+    margin-left: 376px;
+}
+.l-logo img{
+	display: block;
+	width: 100%;
+	border: none;
+	
+}
+.header-group{
+	float: right;
+	margin-top: .2rem;
+}
+.header-group a .com{
+    font-size: 1.5rem;
+	margin-left: 1.875rem;
+}
+.account-login{
+	max-width: 980px;
+	margin: 30px auto 0;
+}
+.account-login-tit{
+	width: 620px;
+	margin: auto;
+}
+.account-login h1{
+	font-size: 24px;
+    font-weight: 600;
+    color: #636363;
+    padding-bottom: 3px;
+    margin-bottom: 15px;
+}
+.login-form{
+	width: 620px;
+    clear: both;
+    overflow: hidden;
+    margin: auto;
+    height: 308px;
+    border: 1px solid #cdcdcd;
+}
+.form-content{
+	overflow: hidden;
+}
+.form-left{
+    width: 49.99% !important;
+	border: none;
+	float: left;
+}
+.left-register{
+	width: 49.99% !important;
+	border: none;
+	height: 308px;
+    padding: 60px 40px 60px 30px;
+    
+}
+.content-fieldset{
+	width: 238.94px;
+}
+.dior-title{
+	font-size: 14px;
+    color: #636363;
+    font-weight: 400;
+    padding: 0 0 10px;
+    border-bottom: none !important;
+    margin-bottom: 0 !important;
+    position: relative; 
+}
+.tab-login{
+	float: right;
+	text-decoration: underline;
+}
+.form-list li{
+	height: 55px;
+	overflow: hidden;
+	clear: both;
+}
+.un{
+	float: left;
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;
+	display: inline-block;
+	color: #636363;
+}
+.user{
+	float: right;
+    display: block;
+    font-size: 11px;
+    line-height: 28px;
+    width: 180px;
+    background: #ebebeb;
+    border: 1px solid #ebebeb;
+    border-radius:5px;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+.error1{
+    color: #DF280A;
+	font-size: 12px !important;
+	display: inline-block;
+}
+.pass{
+	float: right;
+    display: block;
+    font-size: 11px;
+    line-height: 28px;
+    width: 180px;
+    background: #ebebeb;
+    border: 1px solid #ebebeb;
+    border-radius:5px;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+.error2{
+    color: #DF280A;
+	font-size: 12px !important;
+	display: inline-block;
+}
+.ckeckbox-con span{
+	float: right;
+	display: inline-block;
+	font-size: 12px;
+	color: #636363;
+	height: 30px;
+	width: 210px;
+}
+.ckeckbox-con p{
+	display: inline-block;
+	float: left;
+	height: 20px;
+}
+.ckeckbox{
+	display: inline-block;
+}
+.ckeckbox-con a{
+	color: #636363;
+	text-decoration: underline;
+}
+.loginbox{
+	margin-top: 20px;
+}
+.login-bottom{
+	height: 30px;
+	overflow: hidden;
+	clear: both;
+}
+.login-bottom a{
+	text-decoration: underline;
+	color: #787878;
+	font-size: 12px;
+	float: left;
+}
+.login-btn{
+	border-radius: 15px;
+    line-height: 14px;
+    display: inline-block;
+    padding: 7px 15px;
+    border: none;
+    background: #000;
+    color: #fff;
+    float: right;
+}
+
+
+.form-right{
+    width: 49.99% !important;
+    border: none;
+    position: relative;
+    float: left;
+    padding: 60px 50px;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.form-right:before{
+    content: '';
+    width: 1px;
+    height: 145px;
+    background: #d4d4d4;
+    position: absolute;
+    left: 0;
+    top: 76px;
+}
+.form-right-con-tit{
+    font-size: 14px;
+    color: #636363;
+    font-weight: 400;
+    padding: 0 0 10px;
+}
+.form-right-con-news{
+    margin-top: 20px;
+    font-size: 12px;
+	line-height: 20px;
+	color: #636363;
+}
+.create{
+	display: block;
+	margin-top: 50px;
+    width: 100%;
+    background: #fff !important;
+    border: 1px solid #000;
+    color: #000 !important;
+    height: 30px;
+    line-height: 28px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 12px;
+}
+.zhushi{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 16px;
+    color: #5e5e5e;
+    margin-bottom: 80px;
+}
