@@ -61,7 +61,7 @@
   padding: .9375rem;
   font-size: .9375rem;
   margin: 0;
-  color: #000;
+  color: black;
   border: none;
   outline: none;
   width: 100%;
@@ -76,8 +76,9 @@
   padding: 0 1.25rem;
   border: none;
   color: #fff;
-  background-color: #000;
+  background: #c1c1bc;
   outline: none;
+  cursor: pointer;
 }
 .service-guild .link-list {
   display: inline-flex;
