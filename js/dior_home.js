@@ -103,9 +103,21 @@
    
   })
 
-  // $(function(){
-  //   $(document).bind('mousemove',function(e){
-  //     console.log(e.clientY)
-  //   })
-  // })
+  $(function(){
+
+    $('.popOn').on('click',function(e){
+      var hpop=document.body.clientHeight;
+      $('.pop').css({'height':hpop+'px','display':'block'} );
+        // $('.pop').css('display','block');
+    })
+    $('.popOff').on('click',function(){
+  
+        $('.pop').css('display','none');
+    })
+
+   
+
+
+
+  })
   
