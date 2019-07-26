@@ -1,0 +1,176 @@
+.lady-banner {
+  width: 97%;
+  text-align: center;
+  margin: 0 auto;
+}
+.lady-banner p:nth-child(2) {
+  font-size: .9375rem;
+  line-height: 1.5rem;
+  margin-bottom: 1.875rem;
+}
+.lady-banner p:nth-child(1) {
+  margin: 2.5rem auto 0;
+  font-size: 3.25rem;
+  font-family: DinCondensedBold, 'Century Gothic Std', Arial, sans-serif;
+  line-height: 3.25rem;
+}
+.lady-banner img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.lady-products {
+  margin: 0 auto;
+  width: 97%;
+}
+.lady-products p {
+  margin: .8125rem 0 2.125rem 0;
+  font-size: 2rem;
+  line-height: 2.375rem;
+}
+.lady-products .img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.lady-products .img a {
+  display: inline-block;
+  overflow: hidden;
+  margin-right: 2rem;
+  width: 22.8%;
+  cursor: pointer;
+}
+.lady-products .img a:nth-child(4) {
+  margin-right: 0;
+}
+.lady-products .img a img {
+  width: 100%;
+}
+.lady-products .img a p {
+  margin: .8125rem 0 2.625rem 0;
+  font-size: 1.625rem;
+  line-height: 2rem;
+}
+
+.man-banner {
+  width: 97%;
+  text-align: center;
+  margin: 0 auto;
+  border-top: .0625rem solid #e5e5e5;
+}
+.man-banner p:nth-child(2) {
+  font-size: .9375rem;
+  line-height: 1.5rem;
+  margin-bottom: 1.875rem;
+}
+.man-banner p:nth-child(1) {
+  margin: 2.5rem auto 0;
+  font-size: 3.25rem;
+  font-family: DinCondensedBold, 'Century Gothic Std', Arial, sans-serif;
+  line-height: 3.25rem;
+}
+.man-banner img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.man-products {
+  margin: 0 auto;
+  width: 97%;
+}
+.man-products p {
+  font-size: 0.9375rem;
+  line-height: 1.125rem;
+}
+.man-products p:nth-child(1) {
+  margin-top: .8125rem;
+  font-size: 2rem;
+  line-height: 2.375rem;
+}
+.man-products p:nth-child(3) {
+  margin-bottom: 2.125rem;
+}
+.man-products .img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.man-products .img a {
+  display: inline-block;
+  overflow: hidden;
+  margin-right: 2rem;
+  width: 23%;
+  cursor: pointer;
+}
+.man-products .img a:nth-child(1) {
+  width: 49%;
+}
+.man-products .img a:nth-child(3) {
+  margin-right: 0;
+}
+.man-products .img a img {
+  width: 100%;
+}
+.man-products .img a p {
+  margin: .8125rem 0 2.625rem 0;
+  font-size: 1.625rem;
+  line-height: 2rem;
+}
+
+.baby-banner {
+  width: 97%;
+  text-align: center;
+  margin: 0 auto;
+  border-top: .0625rem solid #e5e5e5;
+}
+.baby-banner p:nth-child(2) {
+  font-size: .9375rem;
+  line-height: 1.5rem;
+  margin-bottom: 1.875rem;
+}
+.baby-banner p:nth-child(1) {
+  margin: 2.5rem auto 0;
+  font-size: 3.25rem;
+  font-family: DinCondensedBold, 'Century Gothic Std', Arial, sans-serif;
+  line-height: 3.25rem;
+}
+.baby-banner img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.baby-products {
+  margin: 0 auto;
+  width: 97%;
+}
+.baby-products p {
+  margin: .8125rem 0 2.125rem 0;
+  font-size: 2rem;
+  line-height: 2.375rem;
+}
+.baby-products .img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.baby-products .img a {
+  display: inline-block;
+  overflow: hidden;
+  margin-right: 2rem;
+  width: 23%;
+  cursor: pointer;
+}
+.baby-products .img a:nth-child(1) {
+  width: 49%;
+}
+.baby-products .img a:nth-child(3) {
+  margin-right: 0;
+}
+.baby-products .img a img {
+  width: 100%;
+}
+.baby-products .img a p {
+  margin: .8125rem 0 2.625rem 0;
+  font-size: 1.625rem;
+  line-height: 2rem;
+}

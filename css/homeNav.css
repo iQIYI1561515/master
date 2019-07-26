@@ -4,8 +4,11 @@
   z-index: 5;
   width: 100%;
   display: none;
+<<<<<<< HEAD
   background-color: #ffffff;
   z-index:1000;
+=======
+>>>>>>> fa9506a8f0985836329b8a5918df9765c228234f
 }
 .subnav .wrap {
   display: flex;

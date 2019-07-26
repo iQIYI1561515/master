@@ -1,9 +1,13 @@
  /* ..................中间部分.............  */
+<<<<<<< HEAD
 .male_main{
  	width: 90rem;
  	margin: 0 auto;
  	margin-bottom: 50px;
  }
+=======
+ 
+>>>>>>> fa9506a8f0985836329b8a5918df9765c228234f
  .male_pagContent>* {
      margin-top: 2.5rem;
      margin-bottom: 2.5rem;

@@ -26,6 +26,7 @@ $(".male_b").click(function() {
         }
     })
     // ..................底部导航栏................
+<<<<<<< HEAD
 //var scroTOP = document.querySelector(".male_scroTOP");
 //var clientH = document.documentElement.clientHeight || document.body.clientHeight;
 //var maTop = true;
@@ -53,6 +54,35 @@ $(".male_b").click(function() {
 //  }, 20)
 //  console.log("11");
 //})
+=======
+var scroTOP = document.querySelector(".male_scroTOP");
+var clientH = document.documentElement.clientHeight || document.body.clientHeight;
+var maTop = true;
+var maTimer = null;
+scroTOP.style.display = "none";
+window.onscroll = function() {
+    var topMadam = document.documentElement.scrollTop || document.body.scrollTop;
+    if (topMadam > 0) {
+        scroTOP.style.display = "block";
+    } else {
+        scroTOP.style.display = "none";
+    }
+}
+
+
+// ................回到顶部.............
+$(".male_scroTOP").click(function() {
+    var speed = document.documentElement.scrollTop || document.body.scrollTop;
+    var timer = setInterval(function() {
+        speed -= 200;
+        document.documentElement.scrollTop = document.body.scrollTop = speed;
+        if (speed <= 0) {
+            clearInterval(timer);
+        }
+    }, 20)
+    console.log("11");
+})
+>>>>>>> fa9506a8f0985836329b8a5918df9765c228234f
 
 
 

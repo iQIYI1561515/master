@@ -43,6 +43,7 @@ $('.swiper-pagination-bullet').click(function() {
 
 
 // ..................底部导航栏................
+<<<<<<< HEAD
 //var scroTOP = document.querySelector(".mdam_scroTOP");
 //var clientH = document.documentElement.clientHeight || document.body.clientHeight;
 //var maTop = true;
@@ -73,13 +74,49 @@ $('.swiper-pagination-bullet').click(function() {
 $(function() {
     $.ajax({
         url: '../data/madam.json',
+=======
+var scroTOP = document.querySelector(".mdam_scroTOP");
+var clientH = document.documentElement.clientHeight || document.body.clientHeight;
+var maTop = true;
+var maTimer = null;
+scroTOP.style.display = "none";
+window.onscroll = function() {
+    var topMadam = document.documentElement.scrollTop || document.body.scrollTop;
+    if (topMadam > 0) {
+        scroTOP.style.display = "block";
+    } else {
+        scroTOP.style.display = "none";
+    }
+}
+
+
+// ................回到顶部.............
+$(".mdam_scroTOP").click(function() {
+    var speed = document.documentElement.scrollTop || document.body.scrollTop;
+    var timer = setInterval(function() {
+        speed -= 200;
+        document.documentElement.scrollTop = document.body.scrollTop = speed;
+        if (speed <= 0) {
+            clearInterval(timer);
+        }
+    }, 20)
+    console.log("11");
+})
+$(function() {
+    $.ajax({
+        url: '../data/male.json',
+>>>>>>> fa9506a8f0985836329b8a5918df9765c228234f
         type: 'get',
         dataType: 'json',
         success: function(json) {
             // console.log(json.decorate);
             var jsonNew = json.new;
             var Jsdeate = json.decorate;
+<<<<<<< HEAD
 //          console.log(Jsdeate);
+=======
+            // console.log(Jsdeate);
+>>>>>>> fa9506a8f0985836329b8a5918df9765c228234f
             // console.log(jsonNew);
             var derte = '';
             var newon1 = '';
