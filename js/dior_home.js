@@ -116,18 +116,22 @@ $(function () {
       if (emailReg.test($('.iptReg').val())) {
         $('.btnpop').css('background', 'black');
         $('.btnpop').addClass('popOn');
+        $('.emailPop').val($('.iptReg').val());
       } else {
         $('.btnpop').css('background', '#c1c1bc');
         $('.btnpop').removeClass('popOn');
+        $('.emailPop').val('');
       }
     }, input: function () {
       var emailReg = /^\w{3,}(\.\w+)*@[A-z0-9]+(\.[A-z]{2,5}){1,2}$/;
       if (emailReg.test($('.iptReg').val())) {
         $('.btnpop').css('background', 'black');
-        $('.btnpop').addClass('popOn')
+        $('.btnpop').addClass('popOn');
+        $('.emailPop').val($('.iptReg').val());
       } else {
         $('.btnpop').css('background', '#c1c1bc');
         $('.btnpop').removeClass('popOn');
+        $('.emailPop').val('');
       }
     }
   })
