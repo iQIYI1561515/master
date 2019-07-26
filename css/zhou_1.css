@@ -390,6 +390,9 @@
     width: 100%;
     position: relative;
 }
+.z_lips_r .zl_img2 img{
+    width: 100%;
+}
 .z_lips_r .zl_img2 .shou1{
 	position: absolute;
 	font-size: 26px;

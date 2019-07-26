@@ -46,29 +46,29 @@
 				tablistLi[index == 2 ? 0 : index].className = "active";
 			}			
 			
-			var backToTop=document.querySelector(".backToTop");
-				var clientHeight=document.documentElement.clientHeight||document.body.clientHeight;
-				var isTop=true;
-				var timer=null;
-				backToTop.style.display="none";
-				window.onscroll=function(){
-					var topH=document.documentElement.scrollTop||document.body.scrollTop; 
-					if(topH>0){
-						backToTop.style.display="block";
-					}else{
-					    backToTop.style.display="none";
-					}
-				}
-				backToTop.onclick=function(){
-					timer=setInterval(function(){
-				  		var topH=document.documentElement.scrollTop||document.body.scrollTop;
-				  		var stepLength=Math.ceil(topH/5);
-				  		document.documentElement.scrollTop=document.body.scrollTop=topH-stepLength;
-				  		if(topH==0){
-				  			clearInterval(timer);
-				  		}
-				 	},50);
-				}
+//			var backToTop=document.querySelector(".backToTop");
+//				var clientHeight=document.documentElement.clientHeight||document.body.clientHeight;
+//				var isTop=true;
+//				var timer=null;
+//				backToTop.style.display="none";
+//				window.onscroll=function(){
+//					var topH=document.documentElement.scrollTop||document.body.scrollTop; 
+//					if(topH>0){
+//						backToTop.style.display="block";
+//					}else{
+//					    backToTop.style.display="none";
+//					}
+//				}
+//				backToTop.onclick=function(){
+//					timer=setInterval(function(){
+//				  		var topH=document.documentElement.scrollTop||document.body.scrollTop;
+//				  		var stepLength=Math.ceil(topH/5);
+//				  		document.documentElement.scrollTop=document.body.scrollTop=topH-stepLength;
+//				  		if(topH==0){
+//				  			clearInterval(timer);
+//				  		}
+//				 	},50);
+//				}
 			
 
 		$(function (){
@@ -100,32 +100,31 @@
 				        }
 				    });
 				    
-				     $('.clothesList').on('click','.wgoods a img',function (){
-				     	
+					$('.clothesList').on('click','.wgoods a img',function (){				     	
 				        var code = $(this).parent().parent().attr('code');
-				        if (localStorage.getItem('wgoods')) {
-				            var codeArr = JSON.parse(localStorage.getItem('wgoods')).code;
+				        if (localStorage.getItem('ngoods')) {
+				            var codeArr1 = JSON.parse(localStorage.getItem('ngoods')).code;
 				        } else {
-				            var codeArr = [];
+				            var codeArr1 = [];
 				        }
-				        codeArr.push(code);
-				        var jsonStr = JSON.stringify({"code":codeArr});
-				        localStorage.setItem('wgoods',jsonStr);
+				        codeArr1.push(code);
+				        var jsonStr1 = JSON.stringify({"code":codeArr1});
+				        localStorage.setItem('ngoods',jsonStr1);
 				
 				    });
 				    
-				    $('.clothesList').on('click','.wgoods .joinlove span',function (){
+				    $('.clothesList').on('click','.wgoods .joinlove span',function (){						
 						if($(this).hasClass('love1')){
-							$('#jj-hid').show();
+//							$('#jj-hid').show();
 							var code = $(this).parent().parent().attr('code');
-						        if (localStorage.getItem('wgoods')) {
-						            var codeArr = JSON.parse(localStorage.getItem('wgoods')).code;
+						        if (localStorage.getItem('commodity')) {
+						            var codeArr = JSON.parse(localStorage.getItem('commodity')).code;
 						        } else {
 						            var codeArr = [];
 						        }
 						        codeArr.push(code);
 						        var jsonStr = JSON.stringify({"code":codeArr});
-						        localStorage.setItem('wgoods',jsonStr);
+						        localStorage.setItem('commodity',jsonStr);
 						
 						        alert('加入收藏！');
 			
@@ -138,3 +137,30 @@
 						    
 					   })
 
+				$(function(){
+						$(".header-nav").on('mouseenter','a',function(){
+						  $('.subnav').css('display','block');		 
+						  $(document).bind('mousemove',function(e){
+							var y=e.pageY;		
+							if(y<90||y>645){
+							  
+								$('.subnav').css('display','none');
+							  
+							}
+					
+						  })
+						})
+					});
+					
+					//-------------------------------------------------
+				
+					$(".jj-hid-right").on("click","h5 span",function(){
+						$('#jj-hid').hide();
+						document.documentElement.style.overflow='auto'; 
+					});	
+					
+					$(".header-right").on("click","span:eq(2)",function(){		
+						$('#jj-hid').show();
+						document.documentElement.style.overflow='hidden';})
+
+					

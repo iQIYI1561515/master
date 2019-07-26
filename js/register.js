@@ -24,6 +24,9 @@
 	    				dataType: 'json',
 	    				success : function (data) {
 	    					alert(data.msg);
+							if(data.msg == "注册成功"){
+								window.location.href= "login.html";
+							}
 	    				}
 	    			});
     			}	

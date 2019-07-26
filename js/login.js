@@ -41,6 +41,10 @@ var user = $(".user");
 	    				dataType: 'json',
 	    				success : function (data) {
 	    					alert(data.msg);
+							if(data.msg == "登陆成功"){
+	    						window.location.href= "dior_home.html";
+	    					}
+
 	    				}
 	    			});
     			}

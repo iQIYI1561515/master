@@ -1,3 +1,20 @@
+
+$(function(){
+		$(".header-nav").on('mouseenter','a',function(){
+		  $('.subnav').css('display','block');		 
+		  $(document).bind('mousemove',function(e){
+			var y=e.pageY;
+		  
+			if(y<90||y>645){
+			  
+				$('.subnav').css('display','none');
+			  
+			}
+	
+		  })
+		})
+	});	
+
 $('.btn1').click(function(){
 	$('.video1').show();
 	$('.skill_img1').hide();

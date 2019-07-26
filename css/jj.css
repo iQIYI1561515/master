@@ -1,0 +1,301 @@
+html, body {
+  width: 100%; }
+
+#jj-heard {
+  height: 126px; }
+
+#jj-main {
+  width: 90rem;
+  margin: 1.25rem auto;
+  position: relative;
+  overflow-x:hidden;
+ }
+ .jj-main-pic .jj-pic-left{
+   margin:0 auto 20px;
+ }
+.jj-main-top h2 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  font-size: 2rem;
+  line-height: 2.375rem;
+  text-align: center; }
+
+.jj-main-top p {
+  text-align: center;
+  font-size: 0.9375rem;
+  margin-top: 1.25rem;
+  margin-bottom: 2.5rem; }
+
+.jj-main-pic {
+  width: 100%;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem; }
+
+.jj-main-pic ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.jj-pic-left {
+  width: 65.75%;
+  position: relative;
+  margin-bottom: 40px; }
+
+.jj-lef-vedio {
+  position: relative; }
+
+.jj-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url("../images/jj1.webp") no-repeat;
+  background-size: cover;
+  z-index: 1;
+  cursor: pointer; }
+
+.jj-pic-left video {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin-bottom: 1rem; }
+
+.jj-lef-vedio span {
+  width: 66px;
+  height: 66px;
+  position: absolute;
+  left: 45%;
+  top: 40%;
+  display: block;
+  width: 100%;
+  color: white;
+  background: url(../images/j-ve.webp) no-repeat;
+  z-index: 10; }
+
+.jj-pic-left p {
+  font-size: .9375rem;
+  line-height: 1.5rem;
+  text-align: left;
+  color: #000; }
+
+.jj-main-pic li p {
+  line-height: 1.5rem;
+  font-size: .9375rem;
+  margin-top: 1rem;
+  text-align: center;
+  cursor: pointer; }
+
+.jj-main-pic li p:nth-of-type(2) {
+  margin-top: 0;
+  cursor: pointer; }
+
+.jj-main-pic li {
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 20px; }
+
+.jj-main-pic li i {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  right: 20px; }
+/* -----------蒙版层--------------- */
+#jj-hid {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 100; 
+  display:none;
+ }
+ .jj-hid-right{
+   width:34.375rem;
+   right:0;
+   position:fixed;
+   background-color:#fff;
+   height:100%;
+   display: flex;
+  flex-direction: column;
+ }
+ .jj-hid-right p{
+   height:5rem;
+ }
+ .jj-shoppcar{
+   height:100%;
+ }
+ .jj-same{
+   height:100%;
+ }
+ .jj-hid-right h5 {
+  display: flex;
+  justify-content: flex-end;
+  height: 5rem;
+  line-height: 5rem;
+  padding: 0px 1.78125rem;
+  border-bottom: 0.0625rem solid rgb(229, 229, 229);
+}
+ .jj-hid-right h5 span {
+  font-size: 30px;
+  cursor: pointer;
+}
+ .jj-hid-right p span{
+    display:inline-block;
+    margin-top:20px;
+ }
+ .jj-hid-right ul{
+   display:flex;
+   height:2.8125rem;
+   line-height:2.8125rem;
+   border-bottom:.0625rem solid #e5e5e5;
+   over-flow-x:auto;
+   over-flow-y:hidden;
+   font-size:.9375rem;
+   justify-content: space-around;
+ }
+ .jj-shoppcar{
+   display；flex;
+   flex:1;
+   overflow-y:auto;
+   overflow-x：0；
+ }
+ .jj-hid-right ul li span {
+  display: inline-block;
+  height: 2.815rem;
+  line-height: 2.815rem;
+  cursor: pointer;
+  padding: 0px 1rem;
+}
+.jj-col-one {
+  margin-top: 2.5rem;
+  font-size: 0.9315rem;
+  height: 206px;
+}
+.jj-col-one img {
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 190px;
+  height: 206px;
+}
+.jj-col-one p {
+  margin-top: 40px;
+  width: 190px;
+  float: left;
+  height: 50px;
+  cursor: pointer;
+}
+.jj-col-one p i {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-left: 200px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+  background: rgb(238, 238, 238);
+  cursor: pointer;
+}
+.jj-acount {
+  padding-top: 3.125rem;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.jj-acount .jj-login h2 {
+  font-size: 1.625rem;
+  line-height: 2rem;
+  color: black;
+}
+.jj-acount .jj-login p:nth-of-type(1) {
+  font-size: 0.9375rem;
+  color: black;
+  margin: 10px 0px 15px;
+}
+.jj-acount .jj-login a {
+  display: inline-block;
+  width: 100px;
+  height: 3rem;
+  font-size: 0.9375rem;
+  line-height: 3rem;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  border-radius: 1.5rem;
+  background: black;
+}
+.jj-acount .jj-add {
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+  padding-top: 2.125rem;
+  background: rgb(238, 238, 238);
+}
+.jj-acount .jj-add h4 {
+  font-size: 1.625rem;
+  line-height: 2rem;
+  text-align: center;
+}
+jj-acount .jj-add a {
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  height: 3rem;
+  font-size: 0.9375rem;
+  line-height: 3rem;
+  margin-top: 15px;
+  width: 134px;
+  color: black;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  border-image: initial;
+  border-radius: 1.5rem;
+}
+.jj-add a{
+   text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    height: 3rem;
+    border:1px solid black;
+    border-radius: 1.5rem;
+    font-size: .9375rem;
+    line-height: 3rem;
+    color:black;
+    width:134px;
+    margin-top:20px;
+   
+}
+/* ------------空收藏------------ */
+.jj-kong{
+  font-size: .9375rem;
+  line-height: 1.25rem;
+  margin-top:100px;
+  margin-left:150px;
+}
+.jj-count{
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-size: .9375rem;
+  text-align: center;
+  margin-top: 20px;
+  background-color: #eee;
+}
+.jj-dan{
+   width: 100px;
+    margin: 20px auto 0;
+    background: black;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}

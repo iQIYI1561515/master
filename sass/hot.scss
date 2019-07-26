@@ -39,6 +39,20 @@
         flex: 1;
         color: black;
         text-align: center;
+        position: relative;
+        .shou1{
+          position: absolute;
+          display: block;
+          right: 1rem;
+          top: 0.875rem;
+        }
+        .shou2{
+          position: absolute;
+          display: none;
+          right: 1rem;
+          top: 0.875rem;
+        }
+
 
         img {
           width: 100%;

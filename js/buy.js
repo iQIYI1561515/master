@@ -38,3 +38,64 @@
 			    }
 			})
 
+		
+		$(function(){
+				$(".header-nav").on('mouseenter','a',function(){
+				  $('.subnav').css('display','block');		 
+				  $(document).bind('mousemove',function(e){
+					var y=e.pageY;		
+					if(y<90||y>645){
+					  
+						$('.subnav').css('display','none');
+					  
+					}
+			
+				  })
+				})
+			});
+	$(".header-right").on("click","span:eq(2)",function(){		
+		$('#jj-hid').show();
+		document.documentElement.style.overflow='hidden';
+});
+
+
+
+//-----------------------------------------------
+$('.circle').each(function (index,item){
+			    $(this).click(function (){
+			        $(this).addClass('circleactive').siblings().removeClass('circleactive');
+			        $('.detail1').eq(index).addClass('detail1show').siblings().removeClass('detail1show');
+			    })
+			});
+			
+			$('.tabs-header li').each(function (index,item){
+			    $(this).click(function (){
+			        $(this).addClass('tabs-header-item-selected').siblings().removeClass('tabs-header-item-selected');
+			        $('.buy-content').eq(index).addClass('buy-show').siblings().removeClass('buy-show');
+			    })
+			});	
+			$(function (){
+			    if (localStorage.getItem('ngoods')) {
+			        var codeArr = JSON.parse( localStorage.getItem('ngoods') ).code;
+			        if (codeArr.length == 0) {
+			            return false;
+			        }
+			        $.ajax({
+			            url: '../data/w-goods.json',
+			            type: 'get',
+			            cache: false,
+			            dataType: 'json',
+			            success: function (data){
+			                var buyresults = '';
+			                $.each(codeArr,function (i,item){
+			                    $.each(data,function (index,obj){
+			                        if (item == obj.code) {
+			                            buyresults += `<li><a href="#"><img src="${obj.imgurl}" alt="" /></a></li>`;
+			                        }
+			                    });
+			                });
+			                $('.recentlylist').html(buyresults);
+			            }
+			        });
+			    }
+			})

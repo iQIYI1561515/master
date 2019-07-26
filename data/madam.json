@@ -1,0 +1,19 @@
+{
+    "decorate": [
+        { "imges": "../images/madam_baobao.webp", "title": "Lady Dior羊皮革手提包", "fie": "￥32,000" },
+        { "imges": "../images/madam-T03TA42GH.jpg", "title": "棉和亚麻T恤", "fie": "￥6,400" },
+        { "imges": "../images/madam_xie.webp", "title": "J'Adior刺绣高跟鞋", "fie": "￥6,400" },
+        { "imges": "../images/madam-V01A1166GH.jpg", "title": "羊毛和桑蚕丝外套", "fie": "￥31,000" },
+        { "imges": "../images/madam-E0078MIDRSGH.jpg", "title": "Dior Tribales耳环", "fie": "￥3,100" }
+    ],
+    "new": [
+        { "url": "../images/madam_xinpin1.webp", "explain": "Lady Dior白色迷你牛皮革J'AIME图案手袋", "figure": "￥29,000" },
+        { "url": "../images/madam_xiangli.webp", "explain": "J'AIME珍珠装饰耳环", "figure": "￥1,950" },
+        { "url": "../images/madam_shoudai.webp", "explain": "Dior Book Tote白色JE T'AIME图案手袋", "figure": "￥23,000" },
+        { "url": "../images/madam_xiangli.webp", "explain": "红色J'AIME DIOR短项链", "figure": "￥3,800" },
+        { "url": "../images/madam-M9203UTZQGH.jpg", "explain": "30 Montaigne Dior Oblique手提包", "figure": "￥23,500" },
+        { "url": "../images/madam_gaoxie.webp", "explain": "J'Adior刺绣高跟鞋", "figure": "￥8,800" },
+        { "url": "../images/madam-E1099CDLCYGH.jpg", "explain": "Clair D Lune耳环", "figure": "￥3,300" },
+        { "url": "../images/madam-03A1166GH.jpg", "explain": "羊毛和桑蚕丝外套", "figure": "￥35,000" }
+    ]
+}
